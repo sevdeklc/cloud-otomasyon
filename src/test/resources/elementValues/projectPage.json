@@ -1,0 +1,167 @@
+[
+  {
+    "key": "header_ProjectsPage",
+    "value": ".logo.fa.fa-home+ul>li>a[href='/project']",
+    "type": "css"
+  },
+  {
+    "key": "createNewProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'create-panel') and .//span[text()='Create New Project']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]",
+    "type": "xpath"
+  },
+  {
+    "key": "sortByResultPanel_ProjectsPage",
+    "value": ".sort-by-result",
+    "type": "css"
+  },
+  {
+    "key": "plusButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//span[contains(@class,'bi-plus-circle-fill')]",
+    "type": "xpath"
+  },
+  {
+    "key": "addPlanButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[@routerlink='/plan/create']",
+    "type": "xpath"
+  },
+  {
+    "key": "addScenarioButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[@routerlink='/scenario/create']",
+    "type": "xpath"
+  },
+  {
+    "key": "threeDotButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//span[contains(@class,'fa-ellipsis-h')]",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[text()='DELETE']",
+    "type": "xpath"
+  },
+  {
+    "key": "popupNoButton_ProjectsPage",
+    "value": "//div/button[@class='swal2-cancel swal2-styled']",
+    "type": "xpath"
+  },
+  {
+    "key": "popupYesButton_ProjectsPage",
+    "value": "//div/button[@class='swal2-confirm swal2-styled']",
+    "type": "xpath"
+  },
+  {
+    "key": "summaryButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[normalize-space(.)='SUMMARY']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariosButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[normalize-space(.)='SCENARIOS']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansButtonOnProjectPanel_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//div[@class='menu']]//a[normalize-space(.)='PLANS']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewProject_ProjectsPage",
+    "value": "a[routerlink='/project/selection'][href='/project/selection']",
+    "type": "css"
+  },
+  {
+    "key": "sortByButton_ProjectsPage",
+    "value": "//a[contains(@class,'dropdown-toggle') and normalize-space()='SORT BY']",
+    "type": "xpath"
+  },
+  {
+    "key": "recentlyAddedButton_ProjectsPage",
+    "value": "//a[@class='dropdown-item' and text()='RECENTLY ADDED']",
+    "type": "xpath"
+  },
+  {
+    "key": "sortByprojectNameButton_ProjectsPage",
+    "value": "//a[@class='dropdown-item' and text()='PROJECT NAME']",
+    "type": "xpath"
+  },
+  {
+    "key": "seleniumProject_ProjectsPage_CreateProject",
+    "value": "a[id='selenium'][href='/project/create?type=selenium']",
+    "type": "css"
+  },
+  {
+    "key": "appiumProject_ProjectsPage_CreateProject",
+    "value": "a[id='appium'][href='/project/create?type=appium']",
+    "type": "css"
+  },
+  {
+    "key": "serviceProject_ProjectsPage_CreateProject",
+    "value": "a[id='service'][href='/project/create?type=service']",
+    "type": "css"
+  },
+  {
+    "key": "projectName_ProjectsPage_CreateProject",
+    "value": "project-name",
+    "type": "id"
+  },
+  {
+    "key": "folderName_ProjectsPage_CreateProject",
+    "value": "git-project-folder-name",
+    "type": "id"
+  },
+  {
+    "key": "testFileType_ProjectsPage_CreateProject",
+    "value": "test-file-type",
+    "type": "id"
+  },
+  {
+    "key": "saveButton_ProjectsPage_CreateProject",
+    "value": "//span[normalize-space(.)='SAVE']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "notificationTitle_ProjectsPage_CreateProject",
+    "value": "//div[contains(@class,'sn-title')]",
+    "type": "xpath"
+  },
+  {
+    "key": "notificationContent_ProjectsPage_CreateProject",
+    "value": "//div[contains(@class,'sn-content')]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTitle_ProjectsPage_CreateProject_Summary",
+    "value": "//div[@class='container-fluid']//a[contains(@class,'dropdown-toggle')]//span[@class='text' and text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "dynamicDeleteButton_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//h5[@class='long-text' and text()='%s']]//a[contains(@class,'text-danger')]",
+    "type": "xpath"
+  },
+  {
+    "key": "dynamicThreeDotButton_ProjectsPage",
+    "value": "//div[contains(@class,'project-panel') and .//h5[@class='long-text' and text()='%s']]//span[contains(@class,'fa-ellipsis-h')]",
+    "type": "xpath"
+  },
+  {
+    "key": "mobilUpload_ProjectsPage_CreateProject",
+    "value": "mobile-upload",
+    "type": "class"
+  },
+  {
+    "key": "iosUpload_ProjectsPage_CreateProject",
+    "value": "//input[@name='fileIos']",
+    "type": "xpath"
+  },
+  {
+    "key": "dynamicProjectPanel_ProjectsPage_ProjectList",
+    "value": "//div[contains(@class,'project-panel') and .//h5[@class='long-text' and text()='%s']]",
+    "type": "xpath"
+  }
+]

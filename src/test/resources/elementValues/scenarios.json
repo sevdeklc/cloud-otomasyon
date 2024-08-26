@@ -1,0 +1,220 @@
+
+[
+  {
+    "key": "scenariosTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/scenario']/span[text()='Scenarios']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/project' and @ng-reflect-router-link-active='active']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/plan']/span[text()='Plans']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//i[contains(@class,'fa-chevron-down')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsAutoTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report']",
+    "type": "xpath"
+  },
+  {
+    "key": "scheduledReportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/scheduled']",
+    "type": "xpath"
+  },
+  {
+    "key": "smartPrioritizationReportTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/graph']",
+    "type": "xpath"
+  },
+  {
+    "key": "automatedTestsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/automated']/span[text()='Automated Tests']",
+    "type": "xpath"
+  },
+  {
+    "key": "liveTestingTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//span[@class='link_name' and normalize-space(text())='Live Testing']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "homeIcon",
+    "value": "//a[@class='logo fa fa-home']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportTab",
+    "value": "//div[@class='sidebar']//a[@href='/report']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectNameList",
+    "value": "scenarioName",
+    "type": "id"
+  },
+  {
+    "key": "editButton_ScenarioPage",
+    "value": "button[ng-reflect-router-link='./edit/15552']",
+    "type": "css"
+  },
+  {
+    "key": "copyUrlButton",
+    "value": "div[class*='copy-button']>button",
+    "type": "css"
+  },
+  {
+    "key": "copiedText",
+    "value": "div[class*='simple-notification']>div",
+    "type": "css"
+  },
+  {
+    "key": "selectSourceFile",
+    "value": "//b[text()='SELECT SOURCE FILE*']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectSourceFileSpec",
+    "value": "//span[@node-path='Companies/companies.spec']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectSourceFileCpt",
+    "value": "//span[@node-path='Companies/companies.cpt']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectTestMethod",
+    "value": "//div[@class='panel-heading ng-tns-c290-14']/b[text()='SELECT TEST METHODS*']",
+    "type": "xpath"
+  },
+  {
+    "key": "fileContentPage",
+    "value": "//div[@class='panel-heading margin-left-10 ng-tns-c290-14']/b[text()='FILE CONTENT']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_Properties",
+    "value": "//button[@class='btn btn-primary btn-lg ng-tns-c319-8 ng-star-inserted ladda-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "textMessage",
+    "value": "div[class*='sn-content']",
+    "type": "css"
+  },
+  {
+    "key": "addButton",
+    "value": "//button[text()='COPY URL ']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton",
+    "value": "//button[text()='CANCEL ']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_CreateNewScenario",
+    "value": "//span[normalize-space(.)='SAVE']//parent::button",
+    "type": "xpath"
+  },
+  {
+
+    "key": "cancelButton_createNewScenario",
+    "value": "//div[normalize-space(.)='CANCEL']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewScenarioTab",
+    "value": "button[routerlink='/scenario/create']",
+    "type": "css"
+  },
+  {
+    "key": "scenarioName_CreateNewScenarioPage",
+    "value": "scenarioName",
+    "type": "id"
+  },
+  {
+    "key": "selectSourcefile",
+    "value": "span[class='node-file ng-star-inserted'][node-name='companies.spec']",
+    "type": "css"
+  },
+  {
+    "key": "WarningMessage",
+    "value": "span[class='error-block ng-tns-c319-4 ng-star-inserted']",
+    "type": "css"
+  },
+  {
+    "key": "ThisFieldRequiredMessage",
+    "value": "span[class*='error-block']",
+    "type": "css"
+
+  },
+  {
+    "key": "redBorder",
+    "value": "div[class='source-tree-parent ng-tns-c319-4 ng-star-inserted error-border']",
+    "type": "css"
+  },
+  {
+    "key": "redBorderMethods",
+    "value": "div[class*='error-border']",
+    "type": "css"
+  },
+  {
+    "key": "selectTestMethod_ScenariosPage",
+    "value": "//div[@class='ng-tns-c319-7 ng-star-inserted']//following-sibling::label[text()='@CompaniesSayfasindanDashboardSayfasinaGecis']",
+    "type": "xpath"
+  },
+  {
+    "key": "setSystemParameterName",
+    "value": "javaParameterName",
+    "type": "id"
+  },
+  {
+
+    "key": "setSystemParameterValue",
+    "value": "javaParameterValue",
+    "type": "id"
+  },
+  {
+    "key": "applyButton",
+    "value": "//span[text()='APPLY ']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_createProject",
+    "value": "//span[text()='EnterpriseOtomasyonSena']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewProject_clickButton",
+    "value": "ng-arrow-wrapper",
+    "type": "class"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+
+  }
+]
+
+
+

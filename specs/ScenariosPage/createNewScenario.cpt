@@ -1,0 +1,61 @@
+
+# Scenarios tabına tıklanır
+* "scenariosTab_SideBarTabs" elementine tıkla
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+
+# Create New Scenario tabına tıklanır
+* "createNewScenarioTab" elementinin görünür olması kontrol edilir
+* "createNewScenarioTab" elementine tıkla
+
+# Proje seçilir
+* "createNewProject_clickButton" elementinin görünür olması kontrol edilir
+* "createNewProject_clickButton" elementine tıkla
+* "projectName_createProject" elementinin görünür olması kontrol edilir
+* "projectName_createProject" elementine tıkla
+* "1" saniye bekle
+
+# <projectName> adlı proje seçilir.
+* "projectNameList" elementinin görünür olması kontrol edilir
+* "projectNameList" select element by text <projectName>
+
+# Senaryo adı girilir
+* "scenarioName_CreateNewScenarioPage" elementine "testEdiyorum" değerini yaz
+
+# Select Source File sayfasından dosya seçilir
+* "selectSourcefile" elementinin görünür olması kontrol edilir
+* "selectSourcefile" elementine tıkla
+
+# Select Source File sayfasından cpt dosya seçilir
+* "selectSourceFileCpt" elementinin görünür olması kontrol edilir
+* "selectSourceFileCpt" elementine tıkla
+
+# Save butonuna tıklanır
+* "saveButton_CreateNewScenario" elementinin görünür olması kontrol edilir
+* "saveButton_CreateNewScenario" elementine tıkla
+
+# Cancel butonuna tıklanır
+* "cancelButton_createNewScenario" elementinin görünür olması kontrol edilir
+* "cancelButton_createNewScenario" elementine tıkla
+
+# <expectedText> yazısının geldiği görülür
+* "WarningMessage" elementinin text değeri "Copied" değerini içeriyor mu
+
+# <expectedText> yazısının geldiği görülür.
+* "ThisFieldRequiredMessage" elementinin text değeri "This field is required." değerini içeriyor mu
+
+# <expectedText> yazısının ekrana geldiği görülür.
+* "ThisFieldRequiredMessage" elementinin text değeri "This field is required." değerini içeriyor mu
+
+# Select Source File kısmının kırmızı renk olduğu görülür
+* "redBorder" elementinin görünür olması kontrol edilir
+
+# Select Test Methods kısmının kırmızı renk olduğu görülür
+
+* "redBorderMethods" elementinin görünür olması kontrol edilir
+
+# Select Test Methods sayfasından senaryo seçilir
+* "selectTestMethod_ScenariosPage" elementinin görünür olması kontrol edilir
+* "selectTestMethod_ScenariosPage" elementine tıkla
+
+# Scenarios sayfasına geldiği görülür
+* Şu anki url "https://clouddev.testinium.io/scenario" içeriyor mu

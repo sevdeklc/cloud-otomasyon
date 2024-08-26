@@ -1,0 +1,72 @@
+[
+  {
+    "key": "headerText_ReportsPage_TestExecutionsAuto",
+    "value": "//a[contains(@class,'logo')]//following-sibling::ul//a[@href='/report' and text()='Reports']",
+    "type": "xpath"
+  },
+  {
+    "key": "exportTableButton_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='button-area']//button[text()='EXPORT TABLE']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsBox_ReportsPage_TestExecutionsAuto",
+    "value": "//ng-select[@id='projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansBox_ReportsPage_TestExecutionsAuto",
+    "value": "//ng-select[@id='plans']",
+    "type": "xpath"
+  },
+  {
+    "key": "runDateForm_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='form-group' and .//label[text()='RUN DATE']  and .//input[@id='dateFrom'] and .//input[@id='dateTo']]",
+    "type": "xpath"
+  },
+  {
+    "key": "showOnlyFailedTests_ReportsPage_TestExecutionsAuto",
+    "value": "//app-checkbox[@text='Show only failed tests']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsTable_ReportsPage_TestExecutionsAuto",
+    "value": "//table[.//th[text()='PLAN NAME'] and .//th[text()='PROJECT NAME'] and .//th[text()='RUN DATE'] and .//th[text()='RUNTIME'] and .//th[text()='TEST RESULT']]",
+    "type": "xpath"
+  },
+  {
+    "key": "paginationBar_ReportsPage_TestExecutionsAuto",
+    "value": "pagination.pagination-sm",
+    "type": "css"
+  },
+  {
+    "key": "projectNameOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='PROJECT NAME']]",
+    "type": "xpath"
+  },
+  {
+    "key": "planNameOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='PLAN NAME']]",
+    "type": "xpath"
+  },
+  {
+    "key": "runDateOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='RUN DATE']]",
+    "type": "xpath"
+  },
+  {
+    "key": "dateFrom_ReportsPage_TestExecutionsAuto",
+    "value": "input#dateFrom",
+    "type": "css"
+  },
+  {
+    "key": "dateTo_ReportsPage_TestExecutionsAuto",
+    "value": "input#dateTo",
+    "type": "css"
+  },
+  {
+    "key": "bugs_ReportsPage_TestExecutionsAuto",
+    "value": ".fa.fa-bug",
+    "type": "css"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "key": "automatedTestTab",
+    "value": "//a[@href='/automated']/span[normalize-space(.)='Automated Tests']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "automatedTestTitle",
+    "value": "//a[@href='/automated' and text()='Automated Test']",
+    "type": "xpath"
+  },
+  {
+    "key": "dashboard_HomeLogo",
+    "value": "//a[@class='logo fa fa-home']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "testinium_logo",
+    "value": "//a[@href='/' and text()='Testinium']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "codeGenerator_Title",
+    "value": "//a[@href='/automated/code-generator' and text()='Code Generator']",
+    "type": "xpath"
+  },
+  {
+    "key": "operationReport_Title",
+    "value": "//a[@href='/automated/operation-report' and text()='OPERATION REPORT']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "testCodeGenerator_Title",
+    "value": "//a[@href='/automated/code-generator' and text()='TEST CODE GENERATOR']",
+    "type": "xpath"
+
+  },
+  {
+    "key": "testCodeGenerator_AutomatedTest",
+    "value": "//a[@href=\"/automated/code-generator\" and text()='TEST CODE GENERATOR']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAPlatform_AutomatedTests",
+    "value": "//div[@class='panel-heading']/b[text()='SELECT A PLATFORM']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAOperatingSystem_AutomatedTests",
+    "value": "//div[@class='panel-heading']/b[text()='SELECT A OPERATING SYSTEM']",
+    "type": "xpath"
+  },
+  {
+    "key": "operation-report_AutomatedTests",
+    "value": "//a[@href=\"/automated/operation-report\" and text()='OPERATION REPORT']",
+    "type": "xpath"
+  },
+  {
+    "key": "operationReport_AutomatedTests",
+    "value": "//table[@class='table table-has-child']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAPlatform_AutomatedTest",
+    "value": "//a[@class='platform text-center active']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAOperating_AutomatedTest",
+    "value": "//div[@id='webEnvironment']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAndroid_AutomatedTest",
+    "value": "//a[@class='platform text-center']/label[text()='ANDROID APP']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectOperatingSystemAndroid_AutomatedTest",
+    "value": "//div[@class='area js-equal-height']/h4[text()='ANDROID']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAMobileApp_AutomationTest",
+    "value": "//div[@class='panel-heading']/b[text()='SELECT A MOBILE APP']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAPlatformIOSAPP_AutomationTest",
+    "value": "//a[@class='platform text-center']/label[text()='iOS APP']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectOperatingSystemIos_AutomatedTest",
+    "value": "//div[@class='area js-equal-height']/h4[text()='IOS']",
+    "type": "xpath"
+
+  }
+]
+

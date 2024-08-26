@@ -1,0 +1,84 @@
+
+# Scenarios tabına tıklanır.
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scenariosTab_SideBarTabs" elementine tıkla
+
+# Scenarios sayfasında seçilen senaryoda edite tıklanır
+* "editButton_ScenarioPage" elementinin görünür olması kontrol edilir
+* "editButton_ScenarioPage" elementine tıkla
+
+# <projectName> adlı proje seçilir
+* "projectNameList" elementinin görünür olması kontrol edilir
+* "projectNameList" elementinin değerini temizle
+* "projectNameList" elementine <projectName> değerini yaz
+* "1" saniye bekle
+
+# Properties sayfasının ekrana geldiği görülür
+* Şu anki url "https://clouddev.testinium.io/scenario/edit/15552/properties" ile aynı mı
+
+# Copy URL butonuna tıklanır
+* "copyUrlButton" elementinin görünür olması kontrol edilir
+* "copyUrlButton" elementine tıkla
+
+# Butona tıklandığında <expectedText> ifadesinin ekrana geldiği görülür
+* "copiedText" elementinin text değeri "Copied" değerini içeriyor mu
+
+# Spec ve cpt dosyalarının select source file başlığının altında sıralandığı görülür
+* "selectSourceFile" elementinin görünür olması kontrol edilir
+
+# Select Source File başlığının altında spec dosyasına tıklanır
+* "selectSourceFileSpec" elementinin görünür olması kontrol edilir
+* "selectSourceFileSpec" elementine tıkla
+
+# Select test methods başlığı altındaki tag dosyalarının sıralandığı görülür
+* "selectTestMethod" elementinin görünür olması kontrol edilir
+
+# File Content tarafında herhangi değişiklik yapmadan save butonuna tıklanır
+* "fileContentPage" elementinin görünür olması kontrol edilir
+
+# Save butonunun active olmadığı görülür
+* "saveButton_Properties" elementinin görünür olmadığı kontrol edilir
+
+# File Content tarafında değişiklik yapıldıktan sonra save butonuna tıklanır
+* "saveButton_Properties" elementinin görünür olması kontrol edilir
+
+# Save butonunun active olduğu görülür
+* "saveButton_Properties" elementinin görünür olması kontrol edilir
+* "saveButton_Properties" elementine tıkla
+
+# <expectedText> yazısının ekrana geldiği görülür..
+* "textMessage" elementinin text değeri "This field is required" değerini içeriyor mu
+
+# Set System Parameters Name kısmına <text> kelimesini yaz
+* sayfayı aşağı kaydır
+* "setSystemParameterName" elementinin görünür olması kontrol edilir
+* "setSystemParameterName" elementine <text> değerini yaz
+* "1" saniye bekle
+
+# Add butonuna tıklanır
+* "addButton" elementinin görünür olması kontrol edilir
+* "addButton" elementine tıkla
+
+# Apply butonuna tıklanır
+* "applyButton" elementinin görünür olması kontrol edilir
+* "applyButton" elementine tıkla
+
+# <expectedText> yazısının ekrana geldiği görülür
+* "textMessage" elementinin görünür olması kontrol edilir "90"
+* "textMessage" elementinin text değeri "Scenario successfully updated" değerine eşit mi
+
+
+# Properties sayfasında kalınır
+* Şu anki url "https://clouddev.testinium.io/scenario/edit/15552/properties" ile aynı mı
+
+# Save butonuna tıklanır.
+* "saveButton_Properties" elementinin görünür olması kontrol edilir
+* "saveButton_Properties" elementine tıkla
+
+# All Scenarios sayfasına yönlendirildiği görülür
+* Şu anki url "https://clouddev.testinium.io/scenario" ile aynı mı
+
+# Cancel butonuna tıklanır.
+* "cancelButton" elementinin görünür olması kontrol edilir
+* "cancelButton" elementine tıkla
+

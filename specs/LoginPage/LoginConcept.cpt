@@ -1,0 +1,97 @@
+
+Login sayfası concept dosyası
+
+# Geçerli login yapılır ve hesaba giriş yapılır
+* "https://account.testinium.com/uaa/login" adresine git
+* Şu anki url "https://account.testinium.com/uaa/login" ile aynı mı
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementine "qa@testinium.io" değerini yaz
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementine "Q6XpZ?6GsMbA" değerini yaz
+* "signInButton_LoginPage" elementinin görünür olması kontrol edilir
+* "signInButton_LoginPage" elementine tıkla
+* Şu anki url "https://testinium.io/home" içeriyor mu
+* "userInf_LoginPage" elementinin görünür olması kontrol edilir
+* "userInf_LoginPage" elementinin text değeri "Testinium QA" değerine eşit mi
+
+
+# <url> sayfasına gelinir
+* <url> adresine git
+* Şu anki url <url> ile aynı mı
+
+# Kullanıcı adı kısmı boş bırakılır
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementine "" değerini yaz
+
+
+# Şifre kısmı boş bırakılır
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementine "" değerini yaz
+
+# Giriş yap butonuna tıklanır
+* "signInButton_LoginPage" elementinin görünür olması kontrol edilir
+* "signInButton_LoginPage" elementine tıkla
+
+# Kullanıcı adı kısmında <mesaj> hata mesajı alınır
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu
+
+# Şifre kısmında <mesaj> hata mesajı alınır
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu
+
+# Şifre kısmına <sifre> şifresi girilir
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementine <sifre> değerini yaz
+
+# Kullanıcı adı kısmına <kullanici> kullanıcı adı girilir
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementine <kullanici> değerini yaz
+
+# <mesaj> hata mesajı alınır
+* "alertDanger_LoginPage" elementinin görünür olması kontrol edilir
+* "alertDanger_LoginPage" elementinin text değeri <mesaj> değerine eşit mi
+
+# UserNotEnabledException sayfasına yönlendiği görülür
+* Şu anki url "https://account.testinium.com/uaa/login?error=UserNotEnabledException" ile aynı mı
+
+# User Not Enabled sayfasında <mesaj> mesajının alındığı görülür
+* "verificationText_LoginPage" elementinin görünür olması kontrol edilir
+* "verificationText_LoginPage" elementinin text değeri <mesaj> değerine eşit mi
+
+# Şifremi unuttum butonuna tıklanır
+* "forgotPasswordButton_LoginPage" elementinin görünür olması kontrol edilir
+* "forgotPasswordButton_LoginPage" elementine tıkla
+
+# Şifremi unuttum paneli görülür
+* "loginSwitch_LoginPage" elementinin görünür olması kontrol edilir
+
+
+# Kayıt ol butonuna tıklanır
+* "signUpButton_LoginPage" elementinin görünür olması kontrol edilir
+* "signUpButton_LoginPage" elementine tıkla
+
+# Kayıt ol paneli görülür
+* "loginSwitch_LoginPage" elementinin görünür olması kontrol edilir
+
+# Linkedin butonuna tıklanır
+* "linkedinButton_LoginPage" elementinin görünür olması kontrol edilir
+* "linkedinButton_LoginPage" elementine tıkla
+
+# Linkedin ile giriş sayfasının ekrana geldiği görülür
+* Şu anki url "https://www.linkedin.com/uas/login" içeriyor mu
+
+# Google butonuna tıklanır
+* "googleButton_LoginPage" elementinin görünür olması kontrol edilir
+* "googleButton_LoginPage" elementine tıkla
+
+
+# Google ile giriş sayfasının ekrana geldiği görülür
+* Şu anki url "https://accounts.google.com/v3/signin" içeriyor mu
+
+# Github butonuna tıklanır
+* "githubButton_LoginPage" elementinin görünür olması kontrol edilir
+* "githubButton_LoginPage" elementine tıkla
+
+# Github ile giriş sayfasının ekrana geldiği görülür
+* Şu anki url "https://github.com/login" içeriyor mu

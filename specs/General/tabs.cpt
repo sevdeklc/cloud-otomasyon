@@ -1,0 +1,38 @@
+Created by testinium on 12/21/2022
+
+This is a concept file with following syntax for each concept.
+# Scenarios tabına tıkla
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scenariosTab_SideBarTabs" elementine tıkla
+
+# Projects tabına tıkla
+* "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "projectsTab_SideBarTabs" elementine tıkla
+
+# Plans tabına tıkla
+* "plansTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "plansTab_SideBarTabs" elementine tıkla
+
+# Reports tabına tıkla
+* "reportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "reportsTab_SideBarTabs" elementine tıkla
+
+# Test Executions Auto tabına tıkla
+* "testExecutionsAutoTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "testExecutionsAutoTab_SideBarTabs" elementine tıkla
+
+# Scheduled Reports tabına tıkla
+* "scheduledReportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scheduledReportsTab_SideBarTabs" elementine tıkla
+
+# Smart priorization reports tabına tıkla
+* "smartPrioritizationReportTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "smartPrioritizationReportTab_SideBarTabs" elementine tıkla
+
+# Automated Tests tabına tıkla
+* "automatedTestsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "automatedTestsTab_SideBarTabs" elementine tıkla
+
+# Live Testing tabına tıkla
+* "liveTestingTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "liveTestingTab_SideBarTabs" elementine tıkla

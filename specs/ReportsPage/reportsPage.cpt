@@ -1,0 +1,48 @@
+
+
+# Test Executions Auto sayfa kontrollerini yap
+* "headerText_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "headerText_ReportsPage_TestExecutionsAuto" elementinin text değeri "Reports" değerine eşit mi
+* "exportTableButton_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "projectsBox_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "plansBox_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "runDateForm_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "showOnlyFailedTests_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "projectsTable_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+ "paginationBar_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+
+# Proje filtreleme kısmından <projectName> adlı projeyi seç
+* "projectsBox_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "projectsBox_ReportsPage_TestExecutionsAuto" select element by text <projectName>
+* "1" saniye bekle
+
+# Plan filtreleme kısmından <planName> adlı planı seç
+* "plansBox_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "plansBox_ReportsPage_TestExecutionsAuto" select element by text <planName>
+* "1" saniye bekle
+
+# Listedeki bütün planların <projectName> adlı projeye ait olduğunu doğrula
+* "projectNameOnList_ReportsPage_TestExecutionsAuto" element listesinin text'inde <projectName> kelimesi var mı kontrol et
+
+# Listedeki bütün planların <planName> adlı plana ait olduğunu doğrula
+* "planNameOnList_ReportsPage_TestExecutionsAuto" element listesinin text'inde <planName> kelimesi var mı kontrol et
+
+# RunDate Filterda from <fromDate> to <toDate> tarih aralığını seç
+* "dateFrom_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "dateFrom_ReportsPage_TestExecutionsAuto" elementine <fromDate> değerini yaz
+* "dateFrom_ReportsPage_TestExecutionsAuto" elementine "ENTER" keyini yolla
+* "dateTo_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "dateTo_ReportsPage_TestExecutionsAuto" elementine <toDate> değerini yaz
+* "dateTo_ReportsPage_TestExecutionsAuto" elementine "ENTER" keyini yolla
+
+
+# Listedeki bütün planların <runDate> tarihli planlar olduğunu doğrula
+* "runDateOnList_ReportsPage_TestExecutionsAuto" element listesinin text'inde <runDate> kelimesi var mı kontrol et
+
+# Show only Failed tests checkboxını işaretle
+* "showOnlyFailedTests_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "showOnlyFailedTests_ReportsPage_TestExecutionsAuto" elementine tıkla
+
+# Sadece fail testlerin gösterildiğini gör
+* "bugs_ReportsPage_TestExecutionsAuto" elementinin element sayısını "bugsKeyValue" değerinde tut
+* "20" expectedValue ile "bugsKeyValue" actualValue eşit mi

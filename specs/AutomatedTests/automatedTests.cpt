@@ -1,0 +1,81 @@
+Sena Eroğlu
+
+# Automated Tests tabına tıkla ve Automated Test sayfasında olduğunu kontrol et
+* "automatedTestTab" elementinin görünür olması kontrol edilir
+* "automatedTestTab" elementine tıkla
+* Şu anki url "https://clouddev.testinium.io/automated/code-generator" ile aynı mı
+* "automatedTestTitle" elementinin görünür olması kontrol edilir
+* "automatedTestTitle" elementinin text değeri "Automated Test" değerine eşit mi
+
+# Automated Tests sayfasındaki elementlerin kontrolünün yapılması
+* Side Bar tarafındaki sekmelerin kontrolllerinin yapılması
+* "dashboard_HomeLogo" elementinin görünür olması kontrol edilir
+* "testinium_logo" elementinin görünür olması kontrol edilir
+* "automatedTestTab" elementine tıkla
+* "testCodeGenerator_Title" elementinin görünür olması kontrol edilir
+* "operationReport_Title" elementinin görünür olması kontrol edilir
+
+# Side Bar tarafındaki sekmelerin kontrolllerinin yapılması
+* "sidebar_ProjectTab" elementinin görünür olması kontrol edilir
+* "sidebar_scenarioTab" elementinin görünür olması kontrol edilir
+* "sidebar_PlansTab" elementinin görünür olması kontrol edilir
+* "sideBar_ReportsTab" elementinin görünür olması kontrol edilir
+* "sideBar_ReportsTab" elementine tıkla
+* "sideBar_ReportsTabExecution" elementinin görünür olması kontrol edilir
+* "sideBar_ReportsTabScheduled" elementinin görünür olması kontrol edilir
+* "sideBar_ReportsTabSmartPriori" elementinin görünür olması kontrol edilir
+* "sideBar_ReportsTab" elementine tıkla
+* "sidebar_AutomatedTestsTab" elementinin görünür olması kontrol edilir
+* "sideBar_LiveTesting" elementinin görünür olması kontrol edilir
+
+# Automated Tests sayfasından home iconu ile dashboard sayfasına geçiş
+* "sidebar_scenarioTab" elementinin görünür olması kontrol edilir
+* "sidebar_scenarioTab" elementine tıkla
+
+# Test Code Generator sayfasının kontrollerinin yapılması
+* "automatedTestTab" elementine tıkla
+* "testCodeGenerator_AutomatedTest" elementinin görünür olması kontrol edilir
+* "testCodeGenerator_AutomatedTest" elementine tıkla
+* "selectAPlatform_AutomatedTests" elementinin görünür olması kontrol edilir
+* "selectAOperatingSystem_AutomatedTests" elementinin görünür olması kontrol edilir
+
+# Operation Report sayfasının kontrollerinin yapılması
+* "automatedTestTab" elementine tıkla
+* "operation-report_AutomatedTests" elementinin görünür olması kontrol edilir
+* "operation-report_AutomatedTests" elementine tıkla
+* "operationReport_AutomatedTests" elementinin görünür olması kontrol edilir
+
+# Select a operating system sayfasının element kontrolünün yapılması
+* "automatedTestTab" elementine tıkla
+* "selectAPlatform_AutomatedTest" elementinin görünür olması kontrol edilir
+* "selectAPlatform_AutomatedTest" elementine tıkla
+* "selectAOperating_AutomatedTest" elementinin görünür olması kontrol edilir
+
+# Android App tabına tıkla
+* "automatedTestTab" elementine tıkla
+* "selectAndroid_AutomatedTest" elementinin görünür olması kontrol edilir
+* "selectAndroid_AutomatedTest" elementine odaklan
+* "selectAndroid_AutomatedTest" elementine tıkla
+
+# Android App seçince tabloda bilgilerin gelmesi kontrolü
+* "automatedTestTab" elementine tıkla
+* "selectAndroid_AutomatedTest" elementinin görünür olması kontrol edilir
+* "selectAndroid_AutomatedTest" elementine tıkla
+
+# Select A Mobile App sayfasının element kontrolünün yapılması
+* "selectAMobileApp_AutomationTest" elementinin görünür olması kontrol edilir
+* "selectAMobileApp_AutomationTest" elementine odaklan
+
+# Ios App Tabına Tıkla
+* "automatedTestTab" elementine tıkla
+* "selectAPlatformIOSAPP_AutomationTest" elementinin görünür olması kontrol edilir
+* "selectAPlatformIOSAPP_AutomationTest" elementine odaklan
+* "selectAPlatformIOSAPP_AutomationTest" elementine tıkla
+
+# Ios App seçince tablodaki bilgilerin gelmesi kontrolü
+* "selectOperatingSystemIos_AutomatedTest" elementinin görünür olması kontrol edilir
+* "selectAMobileApp_AutomationTest" elementinin görünür olması kontrol edilir
+
+# Home simgesine tıkla
+* "homeIcon" elementinin görünür olması kontrol edilir
+* "homeIcon" elementine tıkla

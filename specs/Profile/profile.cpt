@@ -1,0 +1,79 @@
+
+
+
+# User Information tabına tıkla
+* "dropdown_ProfilePage" elementinin görünür olması kontrol edilir
+* "dropdown_ProfilePage" elementine tıkla
+
+# Profile tabına tıkla
+* "profileButton_ProfilePage" elementinin görünür olması kontrol edilir
+* "profileButton_ProfilePage" elementine tıkla
+
+# Profile sayfasındaki save butonuna tıkla
+* "saveButton_ProfilePage" elementinin görünür olması kontrol edilir
+* "saveButton_ProfilePage" elementine tıkla
+
+# Profile successfully updated. mesajının gelmesi
+* "successMessage_ProfilePage" elementinin görünür olması kontrol edilir
+
+# <message> mesajının göründüğünü kontrol et
+* "successMessage_ProfilePage" elementinin görünür olması kontrol edilir
+* "successMessage_ProfilePage" elementinin text değeri <message> değerine eşit mi
+
+# Profile sayfasındaki cancel butonuna tıkla
+* "cancelButton_ProfilePage" elementinin görünür olması kontrol edilir
+* "cancelButton_ProfilePage" elementine tıkla
+
+# Dashboard Iconuna tıkla
+* "dashboardPage_Icon" elementinin görünür olması kontrol edilir
+* "dashboardPage_Icon" elementine tıkla
+
+# Account Information tabına tıkla
+* "accountInformation_ProfilePage" elementinin görünür olması kontrol edilir
+* "accountInformation_ProfilePage" elementine tıkla
+
+# Basic Information sayfasının element kontrolün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "editbutton_Information" elementinin görünür olması kontrol edilir
+* "editbutton_Information" elementine tıkla
+
+
+# Edit sayfasındaki cancel butonuna tıklanması
+* "cancelbutton_Information" elementinin görünür olması kontrol edilir
+* "cancelbutton_Information" elementine tıkla
+
+# Users sayfasının element kontrolünün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "users_Information" elementinin görünür olması kontrol edilir
+* "users_Information" elementine tıkla
+
+
+# Billing sayfasının element kontrolünün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "billing_Information" elementinin görünür olması kontrol edilir
+* "billing_Information" elementine tıkla
+
+
+# Company sayfasının element kontrolünün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "company_Information" elementinin görünür olması kontrol edilir
+* "company_Information" elementine tıkla
+
+
+# Plugins sayfasının element kontrolünün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "plugins_Information" elementinin görünür olması kontrol edilir
+* "plugins_Information" elementine tıkla
+
+
+# Tunnel sayfasının element kontrolünün yapılması
+* User Information tabına tıkla
+* Account Information tabına tıkla
+* "tunnel_Information" elementinin görünür olması kontrol edilir
+* "tunnel_Information" elementine tıkla
+

@@ -1,0 +1,57 @@
+
+# <email> ve <password> bilgileriyle giriş yap
+* "https://testinium.io/" adresine git
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "signIn_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementine <email> değerini yaz
+* "password_LoginPage" elementine <password> değerini yaz
+* "signIn_LoginPage" elementinin görünür olması kontrol edilir
+* "signIn_LoginPage" elementinin tıklanabilir olması kontrol edilir
+* "signIn_LoginPage" elementine tıkla
+
+# <email> ve <password> bilgileriyle geçerli giriş yapılır ve dashboard sayfasına ulaşılır.
+* <email> ve <password> bilgileriyle giriş yap
+* Şu anki url "https://testinium.io/" içeriyor mu
+* "dashboardText_Dashboard" elementinin görünür olması kontrol edilir
+* "dashboardText_Dashboard" elementinin text değeri "Dashboard" değerine eşit mi
+
+# Dashboard sayfasında sidebardan all scenarios tabına tıklanır
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scenariosTab_SideBarTabs" elementine tıkla
+
+# Dashboard sayfasında sidebardan Project tabına tıklanır
+* "projectTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "projectTab_SideBarTabs" elementine tıkla
+
+# Dashboard sayfasında sidebardan Plans tabına tıklanır
+* "plansTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "plansTab_SideBarTabs" elementine tıkla
+
+# Dashboard sayfasında sidebardan Report tabına tıklanır
+* "reportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "reportsTab_SideBarTabs" elementine tıkla
+
+# Report tabı altındaki Text Execution (Auto) tabına tıklanır
+* "testExecutionsAutoTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "testExecutionsAutoTab_SideBarTabs" elementine tıkla
+
+# Report tabı altındaki Scheduled Reports tabına tıklanır
+* "scheduledReportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scheduledReportsTab_SideBarTabs" elementine tıkla
+
+# Report tabı altındaki Smart Prioritization Report tabına tıklanır
+* "smartPrioritizationReportTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "smartPrioritizationReportTab_SideBarTabs" elementine tıkla
+
+# Dashboard sayfasında sidebardan Automated Tests tabına tıklanır
+* "automatedTestsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "automatedTestsTab_SideBarTabs" elementine tıkla
+
+# Dashboard sayfasında Live Testing tabına tıklanır
+* "liveTestingTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "liveTestingTab_SideBarTabs" elementine tıkla
+
+# All scenarios sayfasındaki home iconuna tıklanır
+* "homeIcon" elementinin görünür olması kontrol edilir
+* "homeIcon" elementine tıkla

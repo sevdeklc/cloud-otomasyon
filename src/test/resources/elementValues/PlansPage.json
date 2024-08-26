@@ -1,0 +1,273 @@
+[
+  {
+    "key": "PlansButton",
+    "value": "//span[contains(text(),'Plans')]",
+    "type": "xpath"
+  },
+  {
+    "key": "AllPlansText",
+    "value": "//a[contains(text(),'All Plans')]",
+    "type": "xpath"
+  },
+  {
+    "key": "PlanNameText",
+    "value": "//th[contains(text(),'PLAN NAME')]",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateNewPlanButton",
+    "value": "//button[contains(text(),'CREATE NEW PLAN')]",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateNewGroupButton",
+    "value": "//button[contains(text(),' CREATE NEW PLAN GROUP ')]",
+    "type": "xpath"
+  },
+  {
+    "key": "PlatformSelectionTitle",
+    "value": "//b[contains(text(),'PLATFORM SELECTION')]",
+    "type": "xpath"
+  },
+  {
+    "key": "OperatingSystemTitle",
+    "value": "//h4[contains(text(),'OPERATING SYSTEM')]",
+    "type": "xpath"
+  },
+  {
+    "key": "BrowserTitle",
+    "value": "//h4[contains(text(),'BROWSER')]",
+    "type": "xpath"
+  },
+  {
+    "key": "VersionTitle",
+    "value": "//h4[contains(text(),'VERSION')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Windows10Checkbox",
+    "value": "//span[contains(text(),'Windows 10')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Windows8.1Checkbox",
+    "value": "//span[contains(text(),'Windows 8.1')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Windows8Checkbox",
+    "value": "//span[contains(text(),'Windows 8')]",
+    "type": "xpath"
+  },
+  {
+    "key": "LinuxCheckbox",
+    "value": "//span[contains(text(),'Linux')]",
+    "type": "xpath"
+  },
+  {
+    "key": "MacOSCheckbox",
+    "value": "//span[contains(text(),'Mac')]",
+    "type": "xpath"
+  },
+  {
+    "key": "FirefoxCheckbox",
+    "value": "i[class='fa fa-firefox']",
+    "type": "css"
+  },
+  {
+    "key": "ChromeCheckbox",
+    "value": "i[class='fa fa-chrome']",
+    "type": "css"
+  },
+  {
+    "key": "InternetExplorerCheckbox",
+    "value": "i[class='fa fa-internet-explorer']",
+    "type": "css"
+  },
+  {
+    "key": "OperaCheckbox",
+    "value": "i[class='fa fa-opera']",
+    "type": "css"
+  },
+  {
+    "key": "EdgeCheckbox",
+    "value": "i[class='fa fa-edge']",
+    "type": "css"
+  },
+  {
+    "key": "ScreenResolutionTitle",
+    "value": "//label[contains(text(),'Screen Resolution*')]",
+    "type": "xpath"
+  },
+  {
+    "key": "ScreenResolutionDropdown",
+    "value": "screenResolution",
+    "type": "id"
+  }
+,
+  {
+    "key": "AddButtonWeb",
+    "value": "button[class='btn btn-outline inline']",
+    "type": "css"
+  },
+  {
+    "key": "AddButtonMobile",
+    "value": "div[class='screen-resolution text-right']",
+    "type": "css"
+  },
+  {
+    "key": "SelectProjectCombobox",
+    "value": "//nz-select-item[@title='GaugeAppiumAndroid']",
+    "type": "xpath"
+  },
+  {
+    "key": "DropdownFirstElement",
+    "value": "span[class='ng-option-label']",
+    "type": "css"
+  },
+  {
+    "key": "AmazonMasterTest",
+    "value": "//span[contains(text(),'Amazon')]",
+    "type": "xpath"
+  },
+  {
+    "key": "PlanNameTextfield",
+    "value": "planName",
+    "type": "id"
+  },
+  {
+    "key": "FirstScenarioforlist",
+    "value": "div[class='scenario-list']>div:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "CreatePlanSaveButton",
+    "value": "button[class='btn btn-primary btn-lg ng-star-inserted ladda-button']",
+    "type": "css"
+  },
+  {
+    "key": "IOStitle",
+    "value": "//h4[contains(text(),'IOS')]",
+    "type": "xpath"
+  },
+  {
+    "key": "MobileDeviceTitle",
+    "value": "//h4[contains(text(),'MOBILE DEVICE')]",
+    "type": "xpath"
+  },
+  {
+    "key": "AndroidTitle",
+    "value": "//h4[contains(text(),'ANDROID')]",
+    "type": "xpath"
+  },
+  {
+    "key": "APPLECheckbox",
+    "value": "//span[contains(text(),'APPLE')]",
+    "type": "xpath"
+  },
+  {
+    "key": "GOOGLECheckbox",
+    "value": "//span[contains(text(),'GOOGLE')]",
+    "type": "xpath"
+  },
+
+
+  {
+    "key": "HUAWEICheckbox",
+    "value": "//span[contains(text(),'HUAWEI')]",
+    "type": "xpath"
+  },
+  {
+    "key": "LGCheckbox",
+    "value": "//span[contains(text(),'LG')]",
+    "type": "xpath"
+  },
+  {
+    "key": "ONEPLUSCheckbox",
+    "value": "//span[contains(text(),'ONEPLUS')]",
+    "type": "xpath"
+  },
+  {
+    "key": "SAMSUNGCheckbox",
+    "value": "//span[contains(text(),'SAMSUNG')]",
+    "type": "xpath"
+  },
+  {
+    "key": "XIAOMICheckbox",
+    "value": "//span[contains(text(),'XIAOMI')]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "Iphone11Checkbox",
+    "value": "//div[@class='row']/div[2]/div/div/a[14]",
+    "type": "xpath"
+  },
+  {
+    "key": "TestRunTypeTitle",
+    "value": "testRunType",
+    "type": "id"
+  },
+  {
+    "key": "CrossRunType",
+    "value": "//option[contains(text(),'CROSS')]",
+    "type": "xpath"
+  },
+  {
+    "key": "RandomRunType",
+    "value": "//option[contains(text(),'RANDOM')]",
+    "type": "xpath"
+  },
+  {
+    "key": "GaugeAppiumAndroid",
+    "value": "//span[contains(text(),'GaugeAppiumAndroid')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TestRunTypeTitleforService",
+    "value": "//label[contains(text(),'SELECT A TEST DISPATCH METHOD')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TestDispatchMethodSelection",
+    "value": "//b[contains(text(),'TEST DISPATCH METHOD SELECTION')]",
+    "type": "xpath"
+  },
+  {
+    "key": "ServiceDenemeeProject",
+    "value": "//span[contains(text(),'ServiceDenemee')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testDispatchMethod",
+    "value": "testDispatchMethod",
+    "type": "id"
+  },
+  {
+    "key": "PlanEditButton",
+    "value": "button[class='btn btn-sm btn-default btn-icon btn-outline margin-right-5']",
+    "type": "css"
+  },
+  {
+    "key": "PlansPageCombobox",
+    "value": "div[class=ng-input]",
+    "type": "css"
+  },
+  {
+    "key": "PlansPageCloudOtomasyon",
+    "value": "//span[contains(text(),'CloudOtomasyon')]",
+    "type": "xpath"
+  },
+
+  {
+    "key": "FirstPlanRun",
+    "value": "tr[id='18470']>td:nth-of-type(10)>button:nth-of-type(3)",
+    "type": "css"
+  }
+
+
+
+
+
+]
+

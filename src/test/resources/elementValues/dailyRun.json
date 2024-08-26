@@ -1,0 +1,241 @@
+[
+  {
+    "key": "scenariosTab_Summary_DailyRun",
+    "value": "//a[@routerlink='scenarios' and text()='SCENARIOS']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewScenario_Scenarios_DailyRun",
+    "value": "//button[@routerlink='/scenario/create' and normalize-space()='CREATE NEW SCENARIO']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_createProject_DailyRun",
+    "value": "projectName",
+    "type": "id"
+  },
+  {
+    "key": "CreateTemplate_createProject_DailyRun",
+    "value": "//div[contains(@class,'checkbox-primary')]",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateTemplate_SiteUrl_DailyRun",
+    "value": "//input[@id='template']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_createProject_DailyRun",
+    "value": "scenarioName",
+    "type": "id"
+  },
+  {
+    "key": "sourceFile_createProject_DailyRun",
+    "value": "//span[@node-type='FILE' and @node-name='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "testMethod_createProject_DailyRun",
+    "value": "//div[contains(@class,'methods-selection')]//label[normalize-space()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_createProject_DailyRun",
+    "value": "//span[@class='ladda-label' and text()='SAVE ']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewPlan_Plans_DailyRun",
+    "value": "//button[@routerlink='/plan/create' and normalize-space()='CREATE NEW PLAN']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_createPlan_DailyRun",
+    "value": "projectName",
+    "type": "id"
+  },
+  {
+    "key": "planName_createPlan_DailyRun",
+    "value": "planName",
+    "type": "id"
+  },
+  {
+    "key": "scenarios_createPlan_DailyRun",
+    "value": "//div[contains(@class,'scenario-list')]//label[normalize-space(text())='%s']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "operatingSystem_createPlan_DailyRun",
+    "value": "//div[@id='webEnvironment']//a[.//span[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "browser_createPlan_DailyRun",
+    "value": "//div[@id='webEnvironment']//a[.//span[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "version_createPlan_DailyRun",
+    "value": "//div[@id='webEnvironment']//a[.//span[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "addButton_createPlan_DailyRun",
+    "value": "//button[text()='ADD ']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_createPlan_DailyRun",
+    "value": "//span[@class='ladda-label' and text()='SAVE ']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "runButton_Plans_DailyRun",
+    "value": "//tr[.//td[@class='break-words' and normalize-space(text())='%s']]//button[@tooltip='Run']",
+    "type": "xpath"
+  },
+  {
+    "key": "yesPopUp_Plans_DailyRun",
+    "value": "//div[contains(@class,'swal2-popup')]//button[contains(@class,'swal2-confirm')]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsBox_Plans_DailyRun",
+    "value": "select#project",
+    "type": "css"
+  },
+  {
+    "key": "successfullyStartedText_Plans_DailyRun",
+    "value": "//div[contains(@class,'sn-content') and text()='Test successfully started.']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioCreatedSuccessfully_Plans_DailyRun",
+    "value": "//div[contains(@class,'sn-content') and text()='Scenario successfully created.']",
+    "type": "xpath"
+  },
+  {
+    "key": "planCreatedSuccessfully_Plans_DailyRun",
+    "value": "//div[contains(@class,'sn-content') and text()='Plan successfully created.']",
+    "type": "xpath"
+  },
+  {
+    "key": "lastExecutionInDailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and contains(text(),'dailyRunPlan')]]/td[./span[text()=\"LAST EXECUTION\"]]//div[contains(@class,'execution-results')]",
+    "type": "xpath"
+  },
+  {
+    "key": "lastExecutionResultInDailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and contains(text(),'dailyRunPlan')]]/td[./span[text()=\"LAST EXECUTION\"]]//div[contains(@class,'execution-results')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testRunningResultInDailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and contains(text(),'dailyRunPlan')]]/td[./span[text()=\"LAST EXECUTION\"]]//div[contains(@class,'execution-results')]/div[contains(@class,'execution-result')]//i[@class='fa fa-check' or @class='fa fa-remove' or @class='fa fa-bug']",
+    "type": "xpath"
+  },
+  {
+    "key": "deletePlanButton_dailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and contains(text(),'%s')]]//button[@tooltip='Delete']",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteScenarioButton_dailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"SCENARIO NAME\"] and contains(text(),'%s')]]//button[@tooltip='Delete']",
+    "type": "xpath"
+  },
+  {
+    "key": "planDynamic_dailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and contains(text(),'%s')]]",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioDynamic_dailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"SCENARIO NAME\"] and contains(text(),'%s')]]",
+    "type": "xpath"
+  },
+  {
+    "key": "tableLineForPlanInReports_DailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "tableLineForPlanExecutionResultInReports_DailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and text()='%s']]/td[./span[text()=\"TEST RESULT\"]]//div[contains(@class,'execution-results')]/div[contains(@class,'execution-result')]",
+    "type": "xpath"
+  },
+  {
+    "key": "detailsButton_Reports_DailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr[./td[./span[text()=\"PLAN NAME\"] and text()='%s']]/td/a[@type='button' and contains(@href,'/report/detail/') and contains(text(),'DETAILS')]",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_ExecutionResult_DailyRun",
+    "value": "//tr[.//span[@class='table-mobile-th' and text()='ID']]//td",
+    "type": "xpath"
+  },
+  {
+    "key": "reportTestResult_ExecutionResult_DailyRun",
+    "value": "//div[contains(@class,\"panel\")]//table//tbody/tr/td/span[text()=\"STATUS\"]/following-sibling::app-test-status/span",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_Scenarios_DailyRun",
+    "value": "//label[text()='PROJECT']//following-sibling::select",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewProjectPanel",
+    "value": "//div[contains(@class,'create-panel') and .//span[text()='Create New Project']]",
+    "type": "xpath"
+  },
+  {
+    "key": "seleniumProject_ProjectPage_createProject",
+    "value": "a[id='selenium'][href='/project/create?type=selenium']",
+    "type": "css"
+  },
+  {
+    "key": "projectTypeDynamic_ProjectsPage_CreateProject",
+    "value": "a[id='%s'][routerlink='/project/create']",
+    "type": "css"
+  },
+  {
+    "key": "projectName_ProjectsPage_CreateProject",
+    "value": "project-name",
+    "type": "id"
+  },
+  {
+    "key": "testFileType_ProjectsPage_CreateProject",
+    "value": "test-file-type",
+    "type": "id"
+  },
+  {
+
+    "key": "testFileTypee_ProjectsPage_CreateProject",
+    "value": "//div[@class='ant-select-item-option-content'][text()='SELENIUM GAUGE']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "saveButton_ProjectsPage_CreateProject",
+    "value": "//span[@class='ladda-label' and normalize-space()='SAVE']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "message_ProjectsPage_CreateProject",
+    "value": "//div[contains(@class,'sn-content')]",
+    "type": "xpath"
+  },
+  {
+    "key": "propertiesTab_ProjectsPage_Detail",
+    "value": "a[routerlink='properties']",
+    "type": "css"
+  },
+  {
+    "key": "testFileType_ProjectsPage_CreateProject",
+    "value": "test-file-type",
+    "type": "id"
+
+  }
+]

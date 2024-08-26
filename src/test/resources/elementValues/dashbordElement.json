@@ -1,0 +1,107 @@
+[
+  {
+    "key": "dashboard_ls",
+    "value": "//a[@href='/home']",
+    "type": "xpath"
+
+  },
+  {
+    "key": "projectsls-button",
+    "value": "//span[text()='Projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariosls-button",
+    "value": "//span[text()='Scenarios']",
+    "type": "xpath"
+  },
+  {
+    "key": "planls-button",
+    "value": "a[href='/app/plan']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsls-button",
+    "value": "//span[text()='Projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "automatedTestsls-button",
+    "value": "//span[text()='Automated Tests']",
+    "type": "xpath"
+  },
+  {
+    "key": "hamburgerMenuButton",
+    "value": "//i[@id='hamburger-menu']",
+    "type": "xpath"
+  },
+  {
+    "key": "TestiniumLogo",
+    "value": "//div[@class='logo-details']",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBarVisible",
+    "value": "//div[@class='sidebar']",
+    "type": "xpath"
+  },
+  {
+    "key": "ActiveTest_Dashboard",
+    "value": "//div[@class='panel-body text-left']//h4[text()='ACTIVE SCENARIOS']",
+    "type": "xpath"
+  },
+  {
+    "key": "ActivePlans_Dashboard",
+    "value": "//div[@class='panel-body text-left']//h4[text()='ACTIVE PLANS']",
+    "type": "xpath"
+  },
+  {
+    "key": "DarkModeClick",
+    "value": "//i[@class='bi bi-brightness-alt-high sun']",
+    "type": "xpath"
+  },
+  {
+    "key": "HesapIsmiButton",
+    "value": "//span[@class='first-line long-text'][text()='Testinium QA']",
+    "type": "xpath"
+  },
+  {
+    "key": "HesapIsmiButton_Profile",
+    "value": "//a[@class='dropdown-item'][@href='/user/profile']",
+    "type": "xpath"
+  },
+  {
+    "key": "HesapIsmiButton_AccountInformation",
+    "value": "//a[@class='dropdown-item'][@href='/user/account']",
+    "type": "xpath"
+  },
+  {
+    "key": "HesapIsmiButton_Logout",
+    "value": "//a[@class='dropdown-item'][text()='LOG OUT']",
+    "type": "xpath"
+  },
+  {
+    "key": "latestTestRuns",
+    "value": "//table[@class='table']",
+    "type": "xpath"
+  },
+  {
+    "key": "companySelect",
+    "value": "//div[@class='company-dropdown']/select",
+    "type": "xpath"
+  },
+  {
+    "key": "planDetail_Table",
+    "value": "//a[@href='/report/detail/719135']",
+    "type": "xpath"
+
+  },
+  {
+    "key": "companySelected_Dashboard",
+    "value": "//select[@class='form-control ng-pristine ng-valid ng-touched']/option[text()='arceliktestkalite']",
+    "type": "xpath"
+
+
+  }
+  ]
+

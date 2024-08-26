@@ -1,0 +1,48 @@
+[
+  {
+    "key": "projectsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/project']/span[text()='Projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariosTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/scenario']/span[text()='Scenarios']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/plan']/span[text()='Plans']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//i[contains(@class,'fa-chevron-down')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsAutoTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report']",
+    "type": "xpath"
+  },
+  {
+    "key": "scheduledReportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/scheduled']",
+    "type": "xpath"
+  },
+  {
+    "key": "smartPrioritizationReportTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/graph']",
+    "type": "xpath"
+  },
+  {
+    "key": "automatedTestsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/automated']/span[text()='Automated Tests']",
+    "type": "xpath"
+  },
+  {
+    "key": "liveTestingTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//span[@class='link_name' and normalize-space(text())='Live Testing']//parent::a",
+    "type": "xpath"
+
+  }
+]

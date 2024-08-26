@@ -1,0 +1,191 @@
+[
+  {
+    "key": "userNameInLoginPage",
+    "value": "username",
+    "type": "id"
+  },
+  {
+    "key": "passwordInLoginPage",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "signInInLoginPage",
+    "value": "//input[@type='submit'][@value='SIGN IN']",
+    "type": "xpath"
+  },
+  {
+    "key": "NewVersion_Cloud",
+    "value": "//button[@class='btn btn-default'][text()='Go to NEW Version']",
+    "type": "xpath"
+  },
+  {
+    "key": "headerDashboard",
+    "value": "//a[@href='/app/home'][text()='Dashboard']",
+    "type": "xpath"
+  },
+  {
+    "key": "sidebar_scenarioTab",
+    "value": "//div[@class='sidebar']//a[@href='/scenario' and .//span[normalize-space(.)='Scenarios']]",
+    "type": "xpath"
+  },
+  {
+    "key": "allScenarioNavbar_Scenario",
+    "value": "//app-header[@class='topnavbar-wrapper']//a[@href='/app/scenario' and text()='All Scenarios']",
+    "type": "xpath"
+  },
+  {
+    "key": "sidebar_ProjectTab",
+    "value": "//div[@class='sidebar']//a[@href='/project' and .//span[normalize-space(.)='Projects']]",
+    "type": "xpath"
+  },
+  {
+    "key": "sidebar_PlansTab",
+    "value": "//div[@class='sidebar']//a[@href='/plan' and .//span[normalize-space(.)='Plans']]",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBar_LiveTesting",
+    "value": "//span[@class='link_name' and text()='Live Testing ']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBar_ReportsTabExecution",
+    "value": "//ul[@class='sub-menu']//a[@href='/report' and text()='TEST EXECUTIONS (AUTO)']",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBar_ReportsTab",
+    "value": "//div[@class='sidebar']//span[text()='Reports']",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBar_ReportsTabScheduled",
+    "value": "//ul[@class='sub-menu']//a[@href='/report/scheduled' and text()='SCHEDULED REPORTS']",
+    "type": "xpath"
+  },
+  {
+    "key": "sideBar_ReportsTabSmartPriori",
+    "value": "//ul[@class='sub-menu']//a[@href='/report/graph' and text()='SMART PRIORITIZATION REPORT']",
+    "type": "xpath"
+  },
+  {
+    "key": "sidebar_AutomatedTestsTab",
+    "value": "//div[@class='sidebar']//a[@href='/automated' and .//span[normalize-space(.)='Automated Tests']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testiniumLogo_Scenarios",
+    "value": ".logo_name>a[href='/app/']",
+    "type": "css"
+  },
+  {
+    "key": "scenarioTextNavbar_Scenario",
+    "value": "//ul[@class='count-1']//a[@href='/app/scenario']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioPage_HomeLogo",
+    "value": "//a[@class='logo fa fa-home']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioPage_CreateNewScenarioTab",
+    "value": "//button[@routerlink='/scenario/create' and normalize-space(.)='CREATE NEW SCENARIO']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageheader_CreateNewScenario",
+    "value": "//li[@class='ng-star-inserted']/a[normalize-space(.)='Create']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton_CreateNewScenario",
+    "value": "//button[@type='button' and normalize-space(.)='CANCEL']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_CreateNewScenario",
+    "value": "//button[@type='button']/span[normalize-space(.)='SAVE']",
+    "type": "xpath"
+  },
+  {
+    "key": "copyURL_CreateNewScenario",
+    "value": "//div[@class='copy-button ng-tns-c240-10']/button[text()='COPY URL']",
+    "type": "xpath"
+  },
+  {
+    "key": "copyURLTitle_CreateNewScenario",
+    "value": "//div[@class='ng-tns-c17-13 ng-star-inserted']/div[text()='Copied!']",
+    "type": "xpath"
+  },
+  {
+    "key": "ProjectNameList_CreateNewScenario",
+    "value": "projectName",
+    "type": "id"
+  },
+  {
+    "key": "CreateNewScenarioPage_ScenarioName",
+    "value": "scenarioName",
+    "type": "id"
+  },
+  {
+    "key": "CreateNewScenarioPage_Description",
+    "value": "scenarioDescription",
+    "type": "id"
+  },
+  {
+    "key": "CreateNewScenarioPage_scenariospec",
+    "value": "//span[@node-name='scenarios.spec']",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateNewScenarioPage_SelectTestMethod",
+    "value": "//label[text()='@ScenariosSayfaKontrolu']",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateNewScenarioPage_scenarios.cpt",
+    "value": "//span[@node-name='scenarios.cpt']",
+    "type": "xpath"
+  },
+  {
+    "key": "syncScenarios_ScenariosPage",
+    "value": "//button[@routerlink='/scenario/sync' and text()=' SYNC SCENARIOS ']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_SyncScenarios",
+    "value": " //a[@href='/app/scenario/sync' and text()='Sync']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioPage_syncScenarios",
+    "value": "//aw-wizard-navigation-bar/ul/li[1][./div/a[text()='Project'] and contains(@class,'current')]",
+    "type": "xpath"
+  },
+  {
+    "key": "steps_syncScenarios",
+    "value": "//aw-wizard-navigation-bar[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "nextButton_SyncScenarios",
+    "value": "//button[@type='button']",
+    "type": "xpath"
+  },
+  {
+    "key": "backButton_SyncScenarios",
+    "value": "//ul[@class='steps-4 steps-indicator']/li/div/a[text()='Project']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondPageControl_syncScenarios",
+    "value": " //ul[@class='steps-4 steps-indicator']/li/div/a[text()='Methods to import']",
+    "type": "xpath"
+
+
+
+  }
+]
+

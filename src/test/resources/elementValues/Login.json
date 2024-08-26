@@ -1,0 +1,122 @@
+[
+  {
+    "key": "userName_LoginPage",
+    "value": "username",
+    "type": "id"
+  },
+  {
+    "key": "password_LoginPage",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "signInButton_LoginPage",
+    "value": "input[type='submit'][value='SIGN IN']",
+    "type": "css"
+  },
+  {
+    "key": "userInf_LoginPage",
+    "value": "span.first-line.long-text",
+    "type": "css"
+  },
+  {
+    "key": "alertDanger_LoginPage",
+    "value": "//form[@class='login-form']//label[contains(@class,'alert-danger')]",
+    "type": "xpath"
+  },
+  {
+    "key": "alertInfo_LoginPage",
+    "value": "//form[@class='login-form']//label[contains(@class,'alert-info')]",
+    "type": "xpath"
+  },
+  {
+    "key": "verificationText_LoginPage",
+    "value": "verification-text",
+    "type": "class"
+  },
+  {
+    "key": "forgotPasswordButton_LoginPage",
+    "value": "switch-forgot",
+    "type": "id"
+  },
+  {
+    "key": "signUpButton_LoginPage",
+    "value": "switch-sign-up",
+    "type": "id"
+  },
+  {
+    "key": "loginSwitch_LoginPage",
+    "value": "div.login.form-peice.transition.switched",
+    "type": "css"
+  },
+  {
+    "key": "switch_LoginPage",
+    "value": "div.login.form-peice.transition",
+    "type": "css"
+  },
+  {
+    "key": "linkedinButton_LoginPage",
+    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='LinkedIn']]",
+    "type": "xpath"
+  },
+  {
+    "key": "googleButton_LoginPage",
+    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='Google']]",
+    "type": "xpath"
+  },
+  {
+    "key": "githubButton_LoginPage",
+    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-button') and .//text()[normalize-space()='Github']]",
+    "type": "xpath"
+  },
+  {
+    "key": "signIn_ResetPage",
+    "value": "form[class='forgot-form']>div:last-of-type>a[class^='switch']",
+    "type": "css"
+  },
+  {
+    "key": "resetButton_ResetPage",
+    "value": "input[type='submit'][value='Reset']",
+    "type": "css"
+  },
+  {
+    "key": "email_ResetPage",
+    "value": "forgotemail",
+    "type": "id"
+  },
+  {
+    "key": "verificationMailText_ResetPage",
+    "value": "verification-text",
+    "type": "class"
+  },
+  {
+    "key": "signIn_RegisterPage",
+    "value": "form[class='signup-form']>div:nth-of-type(8)>a[class^='switch']",
+    "type": "css"
+  },
+  {
+    "key": "accountName_RegisterPage",
+    "value": "name",
+    "type": "id"
+  },
+  {
+    "key": "signUpButton_RegisterPage",
+    "value": "submitSignUp",
+    "type": "id"
+  },
+  {
+    "key": "email_RegisterPage",
+    "value": "email",
+    "type": "id"
+  },
+  {
+    "key": "password_RegisterPage",
+    "value": "password2",
+    "type": "id"
+  },
+  {
+    "key": "passwordError_RegisterPage",
+    "value": "//form[@id='formSignUp']//input[@id='password2']",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,38 @@
+
+# Kayıt ol sayfasında giriş yap butonuna tıklanır
+* "1" saniye bekle
+* "signIn_RegisterPage" elementinin görünür olması kontrol edilir
+* "signIn_RegisterPage" elementine tıkla
+
+# Kayıt ol sayfasında hesap ismi kısmına <name> ismi girilir
+* "accountName_RegisterPage" elementinin görünür olması kontrol edilir
+* "accountName_RegisterPage" elementine <name> değerini yaz
+
+# Kayıt ol sayfasında email kısmına <mail> maili girilir
+* "email_RegisterPage" elementinin görünür olması kontrol edilir
+* "email_RegisterPage" elementine <mail> değerini yaz
+
+# Kayıt ol sayfasında şifre kısmına <sifre> şifresi girilir
+* "password_RegisterPage" elementinin görünür olması kontrol edilir
+* "password_RegisterPage" elementine <sifre> değerini yaz
+
+# Kayıt ol sayfasında kayıt ol butonuna tıklanır
+* "250" milisaniye bekle
+* "signUpButton_RegisterPage" elementinin görünür olması kontrol edilir
+* "signUpButton_RegisterPage" elementine tıkla
+
+# Hesap ismi kısmında <mesaj> mesajı alınır
+* "accountName_RegisterPage" elementinin görünür olması kontrol edilir
+* "accountName_RegisterPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu
+
+# Mail kısmında <mesaj> mesajı alınır
+* "email_RegisterPage" elementinin görünür olması kontrol edilir
+* "email_RegisterPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu
+
+# Kayıt ol sayfası şifre kısmında <mesaj> mesajı alınır
+* "password_RegisterPage" elementinin görünür olması kontrol edilir
+* "password_RegisterPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu
+
+# Kayıt ol sayfası şifre kısmında <mesaj> hata mesajı alınır
+* "passwordError_RegisterPage" elementinin görünür olması kontrol edilir
+* "passwordError_RegisterPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu

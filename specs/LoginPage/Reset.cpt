@@ -1,0 +1,29 @@
+
+# Şifremi unuttum sayfasında Sign In butonuna tıklanır
+* "1" saniye bekle
+* "signIn_ResetPage" elementinin görünür olması kontrol edilir
+* "signIn_ResetPage" elementine tıkla
+
+# Giriş yap panelinin ekrana geldiği görülür
+* "switch_LoginPage" elementinin görünür olması kontrol edilir
+
+# Şifremi unuttum email kısmına <mail> maili girilir
+* "email_ResetPage" elementinin görünür olması kontrol edilir
+* "email_ResetPage" elementine <mail> değerini yaz
+
+# Reset butonuna tıklanır
+* "1" saniye bekle
+* "resetButton_ResetPage" elementinin görünür olması kontrol edilir
+* "resetButton_ResetPage" elementine tıkla
+
+# Şifremi unuttum sayfasında <mesaj> mesajının ekrana geldiği görülür
+* "alertInfo_LoginPage" elementinin görünür olması kontrol edilir
+* "alertInfo_LoginPage" elementinin text değeri <mesaj> değerine eşit mi
+
+# Onay maili gönderme sayfasında <mesaj> mesajının ekrana geldiği görülür
+* "verificationMailText_ResetPage" elementinin görünür olması kontrol edilir
+* "verificationMailText_ResetPage" elementinin text değeri <mesaj> değerine eşit mi
+
+# Şifremi unuttum mail kısmında <mesaj> hata mesajı alınır
+* "email_ResetPage" elementinin görünür olması kontrol edilir
+* "email_ResetPage" elementinin "validationMessage" niteliği <mesaj> değerini içeriyor mu

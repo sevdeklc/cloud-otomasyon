@@ -1,0 +1,38 @@
+[
+  {
+    "key": "ProjectPageForHappyPath",
+    "value": "ul[class='nav-links']>li:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "CreateProjectButtonForHappyPath",
+    "value": "i[class='bi bi-plus-circle-fill fa-5x text-center add-card-icon']",
+    "type": "css"
+  },
+  {
+    "key": "SelectSeleniumProjectButtonForHappyPath",
+    "value": "div[class='row mt-4 mb-4']>div:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "InputProjectNameForHappyPath",
+    "value": "input[class='form-control ng-pristine ng-invalid ng-touched']",
+    "type": "css"
+  },
+  {
+    "key": "TestFileTypeForHappyPath",
+    "value": "#test-file-type",
+    "type": "id"
+  },
+  {
+    "key": "SaveProjectButtonForHappyPath",
+    "value": "span[class='ladda-label']",
+    "type": "css"
+  },
+  {
+    "key": "TestiniumTextForHappyPath",
+    "value": "//a[contains(text(),'Testinium')]",
+    "type": "xpath"
+  }
+
+]

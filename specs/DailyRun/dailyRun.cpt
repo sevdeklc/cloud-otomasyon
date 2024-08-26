@@ -1,0 +1,162 @@
+
+# <email> ve <password> bilgileriyle geçerli giriş yapılır ve dashboard sayfasına ulaşılır
+* Geçerli login yapılır ve hesaba giriş yapılır
+
+# <projectName> projesinde <scerioName> adıyla senaryo olustur <sourceFile> <testMethods>
+* "scenariosTab_Summary_DailyRun" elementinin görünür olması kontrol edilir
+* "scenariosTab_Summary_DailyRun" elementine tıkla
+* "createNewScenario_Scenarios_DailyRun" elementinin görünür olması kontrol edilir
+* "createNewScenario_Scenarios_DailyRun" elementine tıkla
+* Şu anki url "https://testinium.io/scenario/create" ile aynı mı
+ "projectName_createProject_DailyRun" select element by text <projectName>
+* "scenarioName_createProject_DailyRun" elementinin görünür olması kontrol edilir
+* "scenarioName_createProject_DailyRun" elementine <scerioName> değerini yaz
+* <scerioName> degerini "scenarioNameKeyValue" keyinde tut
+* "sourceFile_createProject_DailyRun" elementinin değerini <sourceFile> değeriyle değiştirerek "sourceFileKeyValue" elementini oluştur
+* "sourceFileKeyValue" elementinin görünür olması kontrol edilir
+* "sourceFileKeyValue" elementine tıkla
+* "sourceFile_createProject_DailyRun" elementinin değerini "plansPage.spec" değeriyle değiştirerek "sourceFileplKeyValue" elementini oluştur
+* "1" saniye bekle
+ "sourceFileplKeyValue" elementine tıkla
+* "1" saniye bekle
+ "sourceFileKeyValue" elementine tıkla
+* "testMethod_createProject_DailyRun" elementinin değerini <testMethods> değeriyle değiştirerek "testMethodKeyValue" elementini oluştur
+* "testMethodKeyValue" elementinin görünür olması kontrol edilir
+* "testMethodKeyValue" elementine tıkla
+* "saveButton_createProject_DailyRun" elementinin görünür olması kontrol edilir
+* "saveButton_createProject_DailyRun" elementine tıkla
+/* "scenarioCreatedSuccessfully_Plans_DailyRun" elementinin görünür olması kontrol edilir
+
+
+# Proje sayfasında Create new project butonuna tıkla
+* Projects tabına tıklanır
+* Projects sayfasına yönlendiği ve sayfa elementlerinin ekrana geldiği görülür
+* Yeni proje oluştur butonuna tıklanır
+
+
+# Proje oluşturma sayfasında selenium projesini seç
+* "seleniumProject_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "seleniumProject_ProjectsPage_CreateProject" elementine tıkla
+
+# <projectName> adıyla <projectType> <testFileType> projesi oluşturulur
+* Şu anki url "https://testinium.io/project/create?type" içeriyor mu
+* "projectName_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* <projectName> değerine rastgele "5" karakter ekle ve "projectNameKeyValue" keyinde tut
+* "projectName_ProjectsPage_CreateProject" elementine "projectNameKeyValue" değerini yaz
+* "CreateTemplate_createProject_DailyRun" elementinin görünür olması kontrol edilir
+* "CreateTemplate_createProject_DailyRun" elementine tıkla
+* "CreateTemplate_SiteUrl_DailyRun" elementine "https://www.hepsiburada.com/" değerini yaz
+* "testFileType_ProjectsPage_CreateProject" elementine tıkla
+* "testFileTypee_ProjectsPage_CreateProject" elementine tıkla
+/* "testFileType_ProjectsPage_CreateProject" select element by text <testFileType>
+* "saveButton_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "saveButton_ProjectsPage_CreateProject" elementine tıkla
+/* "message_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+/* "message_ProjectsPage_CreateProject" elementinin text değeri "Project successfully created." değerine eşit mi
+
+# <projectName> adlı projenin başarıyla oluşturulduğunu kontrol et
+* Şu anki url "https://testinium.io/project/detail" içeriyor mu
+ "title_ProjectsPage_Summary" elementinin text değeri <projectName> değerine eşit mi
+
+
+# Scenarios sayfasından <planName> adlı projeyi seç
+* "projectName_Scenarios_DailyRun" elementinin görünür olması kontrol edilir
+* "projectName_Scenarios_DailyRun" select element by text <planName>
+* "1" saniye bekle
+
+# <scenarioName> adlı senaryoyu sil
+* "deleteScenarioButton_dailyRun" elementinin değerini <scenarioName> değeriyle değiştirerek "deleteScenarioButtonKeyValue" elementini oluştur
+* "deleteScenarioButtonKeyValue" elementinin görünür olması kontrol edilir
+* "deleteScenarioButtonKeyValue" elementine tıkla
+* "yesPopUp_Plans_DailyRun" elementinin görünür olması kontrol edilir
+* "yesPopUp_Plans_DailyRun" elementine tıkla
+* "scenarioDynamic_dailyRun" elementinin değerini <scenarioName> değeriyle değiştirerek "planDynamicKeyValue" elementini oluştur
+* "planDynamicKeyValue" elementinin görünür olmadığı kontrol edilir
+
+# <projectName> projesinde <planName> adıyla bir plan olustur senaryo <scenarios> operating system <opSystem> browser <browser> version <version>
+* "1" saniye bekle
+* Plans tabına tıkla
+* "createNewPlan_Plans_DailyRun" elementinin görünür olması kontrol edilir
+* "createNewPlan_Plans_DailyRun" elementine tıkla
+* Şu anki url "https://testinium.io/plan/create" ile aynı mı
+* "projectName_createPlan_DailyRun" elementinin görünür olması kontrol edilir
+ "projectName_createPlan_DailyRun" select element by text <projectName>
+* "planName_createPlan_DailyRun" elementinin görünür olması kontrol edilir
+* "planName_createPlan_DailyRun" elementine <planName> değerini yaz
+* "scenarios_createPlan_DailyRun" elementinin değerini <scenarios> değeriyle değiştirerek "scenarioCreateScenarioKeyValue" elementini oluştur
+* "scenarioCreateScenarioKeyValue" elementinin görünür olması kontrol edilir
+* "scenarioCreateScenarioKeyValue" elementine tıkla
+* "operatingSystem_createPlan_DailyRun" elementinin değerini <opSystem> değeriyle değiştirerek "opSystemKeyValue" elementini oluştur
+* "opSystemKeyValue" elementinin görünür olması kontrol edilir
+* "opSystemKeyValue" elementine tıkla
+* "browser_createPlan_DailyRun" elementinin değerini <browser> değeriyle değiştirerek "browserKeyValue" elementini oluştur
+* "browserKeyValue" elementinin görünür olması kontrol edilir
+* "browserKeyValue" elementine tıkla
+* "version_createPlan_DailyRun" elementinin değerini <version> değeriyle değiştirerek "versionKeyValue" elementini oluştur
+* "versionKeyValue" elementinin görünür olması kontrol edilir
+* "versionKeyValue" elementine tıkla
+* "addButton_createPlan_DailyRun" elementinin görünür olması kontrol edilir
+* "addButton_createPlan_DailyRun" elementine tıkla
+* "saveButton_createPlan_DailyRun" elementinin görünür olması kontrol edilir
+* "saveButton_createPlan_DailyRun" elementine tıkla
+/* "planCreatedSuccessfully_Plans_DailyRun" elementinin görünür olması kontrol edilir
+
+# <planName> adlı planı çalıştır
+* "runButton_Plans_DailyRun" elementinin değerini <planName> değeriyle değiştirerek "runButtonKeyValue" elementini oluştur
+* "runButtonKeyValue" elementinin görünür olması kontrol edilir
+* "runButtonKeyValue" elementine tıkla
+* "yesPopUp_Plans_DailyRun" elementinin görünür olması kontrol edilir
+* "yesPopUp_Plans_DailyRun" elementine tıkla
+/* "successfullyStartedText_Plans_DailyRun" elementinin görünür olması kontrol edilir
+
+# Plan sayfasından <planName> adlı projeyi seç
+* "projectsBox_Plans_DailyRun" elementinin görünür olması kontrol edilir
+* "projectsBox_Plans_DailyRun" select element by text <planName>
+* "1" saniye bekle
+
+# <planName> adlı planı sil
+* "deletePlanButton_dailyRun" elementinin değerini <planName> değeriyle değiştirerek "deletePlanButtonKeyValue" elementini oluştur
+* "deletePlanButtonKeyValue" elementinin görünür olması kontrol edilir
+* "deletePlanButtonKeyValue" elementine tıkla
+* "yesPopUp_Plans_DailyRun" elementinin görünür olması kontrol edilir
+* "yesPopUp_Plans_DailyRun" elementine tıkla
+* "planDynamic_dailyRun" elementinin değerini <planName> değeriyle değiştirerek "planDynamicKeyValue" elementini oluştur
+* "planDynamicKeyValue" elementinin görünür olmadığı kontrol edilir
+
+# <projectName> adlı proje silinir
+* Proje panelindeki <projectName> adlı projenin üç nokta butonuna tıklanır
+* Delete tabına tıklanır
+* Yes butonuna tıklanır
+* "projectNameDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "deleteProjectNameDynamic" elementini oluştur
+* "deleteProjectNameDynamic" elementinin görünür olmadığı kontrol edilir
+
+# Proje panelindeki <projectName> adlı projenin üç nokta butonuna tıklanır
+* "threeDotButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "threeDotDynamic" elementini oluştur
+* "threeDotDynamic" elementinin görünür olması kontrol edilir
+* "threeDotDynamic" elementine tıkla
+
+# Delete tabına tıklanır
+* "deleteTab_ProjectsPage" elementinin görünür olması kontrol edilir
+* "deleteTab_ProjectsPage" elementine tıkla
+
+# Yes butonuna tıklanır
+* "yesButton_ProjectsPage_DeleteProject" elementinin görünür olması kontrol edilir
+* "yesButton_ProjectsPage_DeleteProject" elementine tıkla
+
+# Rapor sayfasında <planName> adlı planın çalıştığını doğrula
+* "tableLineForPlanInReports_DailyRun" elementinin değerini <planName> değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+* "tableLineForPlanExecutionResultInReports_DailyRun" elementinin değerini <planName> değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+
+# <planName> Adlı plan için details butonuna tıkla
+* "detailsButton_Reports_DailyRun" elementinin değerini <planName> değeriyle değiştirerek "detailsButtonKeyValue" elementini oluştur
+* "detailsButtonKeyValue" elementinin görünür olması kontrol edilir
+* "detailsButtonKeyValue" elementine tıkla
+
+# Sonuçları execution details sayfasında doğrula
+* Şu anki url "https://testinium.io/report/detail" içeriyor mu
+* "scenarioName_ExecutionResult_DailyRun" elementinin görünür olması kontrol edilir
+* "scenarioName_ExecutionResult_DailyRun" elementinin text değeri "scenarioNameKeyValue" değerini içeriyor mu
+* "reportTestResult_ExecutionResult_DailyRun" elementinin görünür olması kontrol edilir
+* "reportTestResult_ExecutionResult_DailyRun" elementinin text değeri "Failure" değerini içeriyor mu

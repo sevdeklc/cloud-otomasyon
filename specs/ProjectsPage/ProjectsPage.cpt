@@ -1,0 +1,262 @@
+Proje sayfası concept dosyası
+
+# Projects tabına tıklanır
+* "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "projectsTab_SideBarTabs" elementine tıkla
+
+# Projects sayfasına yönlendiği ve sayfa elementlerinin ekrana geldiği görülür
+* Şu anki url "https://testinium.io/project" ile aynı mı
+* "createNewProjectPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "sortByResultPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectSearch_ProjectsPage" elementinin görünür olması kontrol edilir
+
+# Yeni proje oluştur butonuna tıklanır
+* "createNewProjectPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "createNewProjectPanel_ProjectsPage" elementine tıkla
+
+# Proje seçimi sayfasına yönlendiği ve selenium appium service proje türlerinin ekrana geldiği görülür
+* Şu anki url "https://testinium.io/project/selection" ile aynı mı
+* "seleniumProject_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "appiumProject_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "serviceProject_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+
+# Proje arama kutusuna <proje> yazılır
+* "projectSearch_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectSearch_ProjectsPage" elementine <proje> değerini yaz
+* "1" saniye bekle
+
+# <projectName> kelimesini içeren projelerin ekrana geldiği görülür
+* "projectNameSearch_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectNameSearch_ProjectsPage" elementinin text değeri <projectName> değerini içeriyor mu
+
+# <projectName> kelimesini içeren hiçbir projenin olmadığı görülür
+* "projectNameSearch_ProjectsPage" elementinin görünür olmadığı kontrol edilir
+
+# Sort By filtresine tıklanır
+* "sortByResultButton_ProjectsPage" elementinin görünür olması kontrol edilir
+* "sortByResultButton_ProjectsPage" elementine tıkla
+
+# Recently Added tabına tıklanır
+* "recentlyAddedButton_ProjectsPage" elementinin görünür olması kontrol edilir
+* "recentlyAddedButton_ProjectsPage" elementine tıkla
+
+# Projelerin oluşturma tarihine göre sıralandığı görülür
+* "sortByResultPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "sortByResultPanel_ProjectsPage" elementinin text değeri "RECENTLY ADDED" değerine eşit mi
+
+# Project name tabına tıklanır
+* "sortByprojectNameButton_ProjectsPage" elementinin görünür olması kontrol edilir
+* "sortByprojectNameButton_ProjectsPage" elementine tıkla
+
+# Projelerin alfabetik sırayla sıralandığı görülür
+* "sortByResultPanel_ProjectsPage" elementinin görünür olması kontrol edilir
+* "sortByResultPanel_ProjectsPage" elementinin text değeri "PROJECT NAME" değerine eşit mi
+
+# Proje panelindeki <projectName> adlı projenin summary butonuna tıklanır
+* "summaryButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "summaryDynamic" elementini oluştur
+* "summaryDynamic" elementinin görünür olması kontrol edilir
+* "summaryDynamic" elementine tıkla
+
+# <projectName> adlı projenin summary sayfasına yönlendiği görülür
+* Şu anki url "https://testinium.io/project/detail" içeriyor mu
+* "summaryTab_ProjectsPage_Detail" elementinin "class" niteliği "active" değerini içeriyor mu
+* "title_ProjectsPage_Summary" elementinin text değeri <projectName> değerine eşit mi
+
+# Proje panelindeki <projectName> adlı projenin scenarios butonuna tıklanır
+* "scenariosButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "scenariosDynamic" elementini oluştur
+* "scenariosDynamic" elementinin görünür olması kontrol edilir
+* "scenariosDynamic" elementine tıkla
+
+# <projectName> adlı projenin scenarios sayfasına yönlendiği görülür
+* Şu anki url "/scenarios?project=7440&plan=0&page=1" ile sonlanıyor mu
+* "projectName_ProjectsPage_Scenarios" elementinin görünür olması kontrol edilir
+* "projectName_ProjectsPage_Scenarios" elementinin text değeri <projectName> değerine eşit mi
+
+# Proje panelindeki <projectName> adlı projenin plans butonuna tıklanır
+* "plansButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "plansDynamic" elementini oluştur
+* "plansDynamic" elementinin görünür olması kontrol edilir
+* "plansDynamic" elementine tıkla
+
+# <projectName> adlı projenin plans sayfasına yönlendiği görülür
+* Şu anki url "plans?page=1&id=7440" ile sonlanıyor mu
+* "projectName_ProjectsPage_Scenarios2" elementinin görünür olması kontrol edilir
+* "projectName_ProjectsPage_Scenarios2" elementinin text değeri <projectName> değerine eşit mi
+
+# Proje panelindeki <projectName> adlı projenin add butonuna tıklanır
+* "addButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "addDynamic" elementini oluştur
+* "addDynamic" elementinin görünür olması kontrol edilir
+* "addDynamic" elementine tıkla
+
+# Add plan tabına tıklanır
+* "addPlanTab_ProjectsPage" elementinin görünür olması kontrol edilir
+* "addPlanTab_ProjectsPage" elementine tıkla
+
+# <projectName> adlı projenin plan ekleme sayfasına yönlendiği görülür
+* Şu anki url "https://testinium.io/plan/create" içeriyor mu
+* "projectName_ProjectsPage_AddPlan" elementinin görünür olması kontrol edilir
+* "projectName_ProjectsPage_AddPlan" elementinin text değeri <projectName> değerine eşit mi
+
+# Add scenario tabına tıklanır
+* "addScenarioTab_ProjectsPage" elementinin görünür olması kontrol edilir
+* "addScenarioTab_ProjectsPage" elementine tıkla
+
+# <projectName> adlı projenin senaryo ekleme sayfasına yönlendiği görülür
+* Şu anki url "https://testinium.io/scenario/create" içeriyor mu
+* "projectName_ProjectsPage_AddPlan" elementinin görünür olması kontrol edilir
+* "projectName_ProjectsPage_AddPlan" elementinin text değeri <projectName> değerine eşit mi
+
+# <projectType> Proje tipi seçilir
+* "projectTypeDynamic_ProjectsPage_CreateProject" elementinin değerini <projectType> değeriyle değiştirerek "projectTypeDynamic" elementini oluştur
+* "projectTypeDynamic" elementinin görünür olması kontrol edilir
+* "projectTypeDynamic" elementine tıkla
+
+# <projectName> adıyla <projectType> <testFileType> projesi oluştur
+* Yeni proje oluştur butonuna tıklanır
+* Proje seçimi sayfasına yönlendiği ve selenium appium service proje türlerinin ekrana geldiği görülür
+* <projectType> Proje tipi seçilir
+* Şu anki url "https://testinium.io/project/create?type" içeriyor mu
+* "projectName_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "projectName_ProjectsPage_CreateProject" elementine <projectName> değerini yaz
+*  "testFileType_ProjectsPage_CreateProject" elementine js ile tıkla
+*  <testFileType> nzselect ile tıkla
+/* "testFileType_ProjectsPage_CreateProject" select element by text <testFileType>
+/* "testFileType_ProjectsPage_CreateProject" select element by text <testFileType> js
+* "saveButton_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "saveButton_ProjectsPage_CreateProject" elementine tıkla
+* "message_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+/* "message_ProjectsPage_CreateProject" elementinin text değeri "Project successfully created." değerine eşit mi
+
+# Proje panelindeki <projectName> adlı projenin üç nokta butonuna tıklanır.
+* "threeDotButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "threeDotDynamic" elementini oluştur
+* "threeDotDynamic" elementinin görünür olması kontrol edilir
+* "threeDotDynamic" elementine tıkla
+
+# Delete tabına tıklanır.
+* "deleteTab_ProjectsPage" elementinin görünür olması kontrol edilir
+* "deleteTab_ProjectsPage" elementine tıkla
+
+# Yes butonuna tıklanır.
+* "yesButton_ProjectsPage_DeleteProject" elementinin görünür olması kontrol edilir
+* "yesButton_ProjectsPage_DeleteProject" elementine tıkla
+
+# <projectName> adlı proje silinir.
+* Proje panelindeki <projectName> adlı projenin üç nokta butonuna tıklanır.
+* Delete tabına tıklanır
+* Yes butonuna tıklanır
+* "projectNameDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "deleteProjectNameDynamic" elementini oluştur
+* "deleteProjectNameDynamic" elementinin görünür olmadığı kontrol edilir
+
+# Projenin properties tabına tıklanır
+* "propertiesTab_ProjectsPage_Detail" elementinin görünür olması kontrol edilir
+* "propertiesTab_ProjectsPage_Detail" elementine tıkla
+
+# <projectName> adıyla Selenium Gauge projesi oluşturulur
+* <projectName> adıyla "selenium" "SELENIUM GAUGE" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SELENIUM_GAUGE" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "chrome.svg" değerini içeriyor mu
+
+# <projectName> adıyla Selenium Java projesi oluşturulur
+* <projectName> adıyla "selenium" "SELENIUM JAVA" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SELENIUM_JAVA" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "chrome.svg" değerini içeriyor mu
+
+# <projectName> adıyla Selenium Cucumber projesi oluşturulur
+* <projectName> adıyla "selenium" "SELENIUM CUCUMBER" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SELENIUM_CUCUMBER" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "chrome.svg" değerini içeriyor mu
+
+# <projectName> adıyla Appium Java projesi oluşturulur
+* <projectName> adıyla "appium" "APPIUM JAVA" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "APPIUM_JAVA" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "mobile.svg" değerini içeriyor mu
+
+# <projectName> adıyla Appium Cucumber projesi oluşturulur
+* <projectName> adıyla "appium" "APPIUM CUCUMBER" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "APPIUM_CUCUMBER" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "mobile.svg" değerini içeriyor mu
+
+# <projectName> adıyla Appium Gauge projesi oluşturulur
+* <projectName> adıyla "appium" "APPIUM GAUGE" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "APPIUM_GAUGE" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "web" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "mobile.svg" değerini içeriyor mu
+
+# <projectName> adıyla Service Karate projesi oluşturulur
+* <projectName> adıyla "service" "SERVICE KARATE" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SERVICE_KARATE" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "service" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "service.svg" değerini içeriyor mu
+
+# <projectName> adıyla Service Java projesi oluşturulur
+* <projectName> adıyla "service" "SERVICE JAVA" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SERVICE_JAVA" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "service" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "service.svg" değerini içeriyor mu
+
+# <projectName> adıyla Service Gauge projesi oluşturulur
+* <projectName> adıyla "service" "SERVICE GAUGE" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SERVICE_GAUGE" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "service" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "service.svg" değerini içeriyor mu
+
+# <projectName> adıyla Service Cucumber projesi oluşturulur
+* <projectName> adıyla "service" "SERVICE CUCUMBER" projesi oluştur
+* Projenin properties tabına tıklanır
+* "testFileType_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
+* "testFileType_ProjectsPage_CreateProject" elementinin "ng-reflect-model" niteliği "SERVICE_CUCUMBER" değerine eşit mi
+* Projects tabına tıklanır
+* "projectIconDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "projectIconDynamic" elementini oluştur
+* "projectIconDynamic" elementinin görünür olması kontrol edilir
+* "projectIconDynamic" elementinin "alt" niteliği "service" değerine eşit mi
+* "projectIconDynamic" elementinin "src" niteliği "service.svg" değerini içeriyor mu

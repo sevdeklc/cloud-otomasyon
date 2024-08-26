@@ -1,0 +1,163 @@
+[
+  {
+    "key": "signInText",
+    "value": "sign-text",
+    "type": "class"
+  },
+  {
+    "key": "userName_LoginPage",
+    "value": "username",
+    "type": "id"
+  },
+  {
+    "key": "password_LoginPage",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "signIn_LoginPage",
+    "value": "input[type='submit'][value='SIGN IN']",
+    "type": "css"
+  },
+  {
+    "key": "forgetPassword_LoginPage",
+    "value": "switch-forgot",
+    "type": "id"
+  },
+  {
+    "key": "signUp_LoginPage",
+    "value": "switch-sign-up",
+    "type": "id"
+  },
+  {
+    "key": "linkedInButton_LoginPage",
+    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-linked-in')]",
+    "type": "xpath"
+  },
+  {
+    "key": "gitHubButton_LoginPage",
+    "value": "//form[@class='login-form']//a[contains(@class,'btn-social-github')]",
+    "type": "xpath"
+  },
+  {
+    "key": "requiredWarningEmail_LoginPage",
+    "value": "input#username ~ div > div.tooltip-inner",
+    "type": "css"
+  },
+  {
+    "key": "requiredWarningPassword_LoginPage",
+    "value": "input#password ~ div > div.tooltip-inner",
+    "type": "css"
+  },
+  {
+
+    "key": "verificationText",
+    "value": "verification-text",
+    "type": "class"
+  },
+  {
+    "key": "dashboardText_Dashboard",
+    "value": "a.logo + ul.count-1 > li > a",
+    "type": "css"
+  },
+  {
+    "key": "forgotPasswordHeader_ForgotPasswordPage",
+    "value": "#formForgot>p.sign-text",
+    "type": "css"
+  },
+  {
+    "key": "signUpHeader_ForgotPasswordPage",
+    "value": "#formSignUp>p.sign-up-text",
+    "type": "css"
+  },
+  {
+    "key": "emailBox_ForgotPasswordPage",
+    "value": "forgotemail",
+    "type": "id"
+  },
+  {
+    "key": "sendMailButton_ForgotPasswordPage",
+    "value": "input[type='submit'][value='Reset']",
+    "type": "css"
+  },
+  {
+    "key": "signIn_ForgotPasswordPage",
+    "value": "//a[contains(@class,'switch') and text()='Sign in']",
+    "type": "xpath"
+  },
+  {
+    "key": "forgotPasswordText_ForgotPasswordPage",
+    "value": "//form[@action='/uaa/send-reminder-mail']/p[text()='FORGOT PASSWORD ?']",
+    "type": "xpath"
+  },
+  {
+    "key": "alertInfo_ForgotPasswordPage",
+    "value": "form[action='/uaa/send-reminder-mail']>div>label.alert.alert-danger",
+    "type": "css"
+  },
+  {
+    "key": "alert_ForgotPasswordPage",
+    "value": "form[action='/uaa/login']>div>label.alert.alert-info",
+    "type": "css"
+  },
+  {
+    "key": "emailError_ForgotPasswordPage",
+    "value": "input[name='email'] ~ div > div.tooltip-inner",
+    "type": "css"
+  },
+  {
+    "key": "signUpText_SignUpPage",
+    "value": "form[action='/uaa/register']>p",
+    "type": "css"
+  },
+  {
+    "key": "accountName_SignUpPage",
+    "value": "//form[@id='formSignUp']//input[@id='name']",
+    "type": "xpath"
+  },
+  {
+    "key": "email_SignUpPage",
+    "value": "//form[@id='formSignUp']//input[@id='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "password_SignUpPage",
+    "value": "//form[@id='formSignUp']//input[@id='password2']",
+    "type": "xpath"
+  },
+  {
+    "key": "recaptcha_SignUpPage",
+    "value": "iframe[title='reCAPTCHA']",
+    "type": "css"
+  },
+  {
+    "key": "privacyCheckBox_SignUpPage",
+    "value": "privacy-checkbox",
+    "type": "id"
+  },
+  {
+    "key": "registerButton_SignUpPage",
+    "value": "input[id='submit'][value='Sign up Now']",
+    "type": "css"
+  },
+  {
+    "key": "signIn_SignUpPage",
+    "value": "//a[@class='switch' and text()='Sign in!']",
+    "type": "xpath"
+  },
+  {
+    "key": "linkedInButton_SignUpPage",
+    "value": "//form[@id='formSignUp']//div[@class='lb-form']//a[contains(@class,'btn-social-linked-in')]",
+    "type": "xpath"
+  },
+  {
+    "key": "googleButton_SignUpPage",
+    "value": "//form[@id='formSignUp']//div[@class='lb-form']//a[contains(@class,'btn-social-google')]",
+    "type": "xpath"
+  },
+  {
+    "key": "gitHubButton_SignUpPage",
+    "value": "//form[@id='formSignUp']//div[@class='lb-form']//a[contains(@class,'btn-social-github')]",
+    "type": "xpath"
+  }
+]

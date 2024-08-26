@@ -1,0 +1,178 @@
+Created by TESTINIUM on 18.07.2023
+
+This is a concept file with following syntax for each concept.
+
+# Create New Plan Button
+* "CreateNewPlanButton" elementine tıkla
+
+#Select Amazon Web Project
+* "SelectProjectCombobox" elementine tıkla
+* "AmazonMasterTest" elementinin görünür olması kontrol edilir
+* "AmazonMasterTest" elementine tıkla
+
+# Select Mobile Project
+* "SelectProjectCombobox" elementine tıkla
+* "GaugeAppiumAndroid" elementinin görünür olması kontrol edilir
+* "GaugeAppiumAndroid" elementine tıkla
+
+# Select Service Project
+* "SelectProjectCombobox" elementine tıkla
+* "ServiceDenemeeProject" elementinin görünür olması kontrol edilir
+* "ServiceDenemeeProject" elementine tıkla
+
+
+# PlansPage için Plans tabına tıklanır
+* "PlansButton" elementinin görünür olması kontrol edilir
+* "PlansButton" elementinin tıklanabilir olması kontrol edilir
+* "PlansButton" elementine tıkla
+
+# Plans sayfasının elementleri kontrol edilir
+* Şu anki url "https://testinium.io/plan" ile aynı mı
+* "AllPlansText" elementinin görünür olması kontrol edilir
+* "PlanNameText" elementinin görünür olması kontrol edilir
+* "CreateNewPlanButton" elementinin görünür olması kontrol edilir
+* "CreateNewPlanButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateNewGroupButton" elementinin görünür olması kontrol edilir
+* "CreateNewGroupButton" elementinin tıklanabilir olması kontrol edilir
+
+# PlanCreate Sayfası Web için Kontrolü
+* Şu anki url "https://testinium.io/plan/create" ile aynı mı
+* "PlatformSelectionTitle" elementinin görünür olması kontrol edilir
+* "OperatingSystemTitle" elementinin görünür olması kontrol edilir
+* "BrowserTitle" elementinin görünür olması kontrol edilir
+* "VersionTitle" elementinin görünür olması kontrol edilir
+* "ScreenResolutionTitle" elementinin görünür olması kontrol edilir
+* "Windows10Checkbox" elementinin görünür olması kontrol edilir
+* "Windows10Checkbox" elementinin tıklanabilir olması kontrol edilir
+* "Windows8.1Checkbox" elementinin görünür olması kontrol edilir
+* "Windows8.1Checkbox" elementinin tıklanabilir olması kontrol edilir
+* "Windows8Checkbox" elementinin görünür olması kontrol edilir
+* "Windows8Checkbox" elementinin tıklanabilir olması kontrol edilir
+* "LinuxCheckbox" elementinin görünür olması kontrol edilir
+* "LinuxCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "MacOSCheckbox" elementinin görünür olması kontrol edilir
+* "MacOSCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "FirefoxCheckbox" elementinin görünür olması kontrol edilir
+* "FirefoxCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "ChromeCheckbox" elementinin görünür olması kontrol edilir
+* "ChromeCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "InternetExplorerCheckbox" elementinin görünür olması kontrol edilir
+* "InternetExplorerCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "OperaCheckbox" elementinin görünür olması kontrol edilir
+* "OperaCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "EdgeCheckbox" elementinin görünür olması kontrol edilir
+* "EdgeCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "ScreenResolutionDropdown" elementinin görünür olması kontrol edilir
+* "ScreenResolutionDropdown" elementinin tıklanabilir olması kontrol edilir
+* "AddButtonWeb" elementinin görünür olması kontrol edilir
+* "AddButtonWeb" elementinin tıklanabilir olması kontrol edilir
+* "CreatePlanSaveButton" elementinin görünür olması kontrol edilir
+* "CreatePlanSaveButton" elementinin tıklanabilir olması kontrol edilir
+
+
+
+# Rastgele Yeni Plan Oluşturma
+//* "CreateNewPlanButton" elementine tıkla
+*"SelectProjectCombobox" dropdown elementinin "3" indexine tıkla
+//* "SelectProjectCombobox" dropdown elementinin Random indexine tıkla
+// "DropdownFirstElement" elementine tıkla
+// * "SelectProjectCombobox" elementineeee tıkla
+* "4" saniye bekle
+
+
+# Amazon Web Planı oluşturma
+
+* "SelectProjectCombobox" elementine tıkla
+* "AmazonMasterTest" elementinin görünür olması kontrol edilir
+* "AmazonMasterTest" elementine tıkla
+* "PlanNameTextfield" elementine random  değerini yaz
+* "FirstScenarioforlist" elementinin görünür olması kontrol edilir
+* "FirstScenarioforlist" elementinin tıklanabilir olması kontrol edilir
+* "FirstScenarioforlist" elementine tıkla
+* "ChromeCheckbox" elementine tıkla
+* "AddButtonWeb" elementine tıkla
+* "CreatePlanSaveButton" elementine tıkla
+
+# PlanCreate Sayfası Mobile için Kontrolü
+
+* "IOStitle" elementinin görünür olması kontrol edilir
+* "MobileDeviceTitle" elementinin görünür olması kontrol edilir
+* "AndroidTitle" elementinin görünür olması kontrol edilir
+* "APPLECheckbox" elementinin görünür olması kontrol edilir
+* "APPLECheckbox" elementinin tıklanabilir olması kontrol edilir
+* "GOOGLECheckbox" elementinin görünür olması kontrol edilir
+* "GOOGLECheckbox" elementinin tıklanabilir olması kontrol edilir
+* "HUAWEICheckbox" elementinin görünür olması kontrol edilir
+* "HUAWEICheckbox" elementinin tıklanabilir olması kontrol edilir
+* "LGCheckbox" elementinin görünür olması kontrol edilir
+* "LGCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "ONEPLUSCheckbox" elementinin görünür olması kontrol edilir
+* "ONEPLUSCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "SAMSUNGCheckbox" elementinin görünür olması kontrol edilir
+* "SAMSUNGCheckbox" elementinin tıklanabilir olması kontrol edilir
+* "XIAOMICheckbox" elementinin görünür olması kontrol edilir
+* "XIAOMICheckbox" elementinin tıklanabilir olması kontrol edilir
+* "Iphone11Checkbox" elementinin görünür olması kontrol edilir
+* "Iphone11Checkbox" elementinin tıklanabilir olması kontrol edilir
+* "TestRunTypeTitle" elementinin görünür olması kontrol edilir
+* "TestRunTypeTitle" elementinin tıklanabilir olması kontrol edilir
+* "AddButtonMobile" elementinin görünür olması kontrol edilir
+* "AddButtonMobile" elementinin tıklanabilir olması kontrol edilir
+
+
+# Mobile Planı oluşturma
+* "SelectProjectCombobox" elementine tıkla
+* "GaugeAppiumAndroid" elementinin görünür olması kontrol edilir
+* "GaugeAppiumAndroid" elementine tıkla
+* "PlanNameTextfield" elementine random  değerini yaz
+* "FirstScenarioforlist" elementinin görünür olması kontrol edilir
+* "FirstScenarioforlist" elementinin tıklanabilir olması kontrol edilir
+* "FirstScenarioforlist" elementine tıkla
+* "Iphone11Checkbox" elementine tıkla
+* "AddButtonMobile" elementine tıkla
+* "CreatePlanSaveButton" elementine tıkla
+
+
+# Service Plan Create Sayfası Kontrolü
+* "TestRunTypeTitleforService" elementinin görünür olması kontrol edilir
+* "TestDispatchMethodSelection" elementinin görünür olması kontrol edilir
+* "testDispatchMethod" elementinin görünür olması kontrol edilir
+* "testDispatchMethod" elementinin tıklanabilir olması kontrol edilir
+* "PlanNameTextfield" elementinin görünür olması kontrol edilir
+* "PlanNameTextfield" elementinin tıklanabilir olması kontrol edilir
+* "SelectProjectCombobox" elementinin görünür olması kontrol edilir
+* "SelectProjectCombobox" elementinin tıklanabilir olması kontrol edilir
+
+
+# Service Plan Oluşturma
+* "SelectProjectCombobox" elementine tıkla
+* "ServiceDenemeeProject" elementinin görünür olması kontrol edilir
+* "ServiceDenemeeProject" elementine tıkla
+* "PlanNameTextfield" elementine random  değerini yaz
+* "FirstScenarioforlist" elementinin görünür olması kontrol edilir
+* "FirstScenarioforlist" elementinin tıklanabilir olması kontrol edilir
+* "FirstScenarioforlist" elementine tıkla
+* "CreatePlanSaveButton" elementine tıkla
+
+# Plan Edit Sayfası Kontrolü
+* "PlanEditButton" elementinin görünür olması kontrol edilir
+* "PlanEditButton" elementine random tıkla
+* "5" saniye bekle
+
+#Plan Run
+* "PlansPageCombobox" elementinin görünür olması kontrol edilir
+* "PlansPageCombobox" elementinin tıklanabilir olması kontrol edilir
+* "PlansPageCombobox" elementine tıkla
+* "PlansPageCloudOtomasyon" elementinin görünür olması kontrol edilir
+* "PlansPageCloudOtomasyon" elementinin tıklanabilir olması kontrol edilir
+* "PlansPageCloudOtomasyon" elementine tıkla
+* "PlansPageRunButton" elementinin görünür olması kontrol edilir
+* "PlansPageRunButton" elementinin tıklanabilir olması kontrol edilir
+* "PlansPageRunButton" elementine tıkla
+
+
+
+
+
+
+

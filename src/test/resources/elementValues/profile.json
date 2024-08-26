@@ -1,0 +1,89 @@
+[
+  {
+    "key": "dropdown_ProfilePage.",
+    "value": "//li[@class='dropdown vertical-align-center']//div[@class='btn-group']",
+    "type": "xpath"
+  },
+  {
+    "key": "profileButton_ProfilePage",
+    "value": "//span[@class='ant-menu-title-content' and text()='PROFILE']",
+    "type": "xpath"
+  },
+  {
+    "key": "dropdown_ProfilePage",
+    "value": "//a[@class='ant-dropdown-link ant-dropdown-trigger user-dropdown dropdown-toggle ng-star-inserted']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_ProfilePage",
+    "value": "//button[@class='btn btn-primary btn-lg ladda-button']/span[text()='SAVE ']",
+    "type": "xpath"
+  },
+  {
+    "key": "successMessage_ProfilePage",
+    "value": "//div[@class='ng-tns-c17-4 ng-star-inserted']/div[@class='ng-tns-c680372657-12949 ng-star-inserted' and text()='Profile successfully updated.']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton_ProfilePage",
+    "value": "//button[@class='btn btn-outline btn-lg margin-right-20']",
+    "type": "xpath"
+  },
+  {
+    "key": "ProfileTitle_ProfilePage",
+    "value": "//a[@href='/user/profile'][text()='PROFILE']",
+    "type": "xpath"
+  },
+  {
+    "key": "dashboardPage_Icon",
+    "value": "//div[@class='row bread-row']/a[@href='/']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "accountInformation_ProfilePage",
+    "value": "//span[@class='ant-menu-title-content' and text()='ACCOUNT INFORMATION']",
+    "type": "xpath"
+  },
+  {
+    "key": "editbutton_Information",
+    "value": "//a[@href='/user/account/information/edit']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelbutton_Information",
+    "value": "//a[@href='/user/account/information'][text()='CANCEL']",
+    "type": "xpath"
+  },
+  {
+    "key": "users_Information",
+    "value": "//a[@href='/user/account/users' and text()='USERS']",
+    "type": "xpath"
+  },
+  {
+    "key": "billing_Information",
+    "value": "//a[@href='/user/account/billing' and text()='BILLING']",
+    "type": "xpath"
+  },
+  {
+    "key": "company_Information",
+    "value": "//a[@href='/user/account/company' and text()='COMPANY']",
+    "type": "xpath"
+  },
+  {
+    "key": "plugins_Information",
+    "value": "//a[@href='/user/account/plugin' and text()='PLUGINS']",
+    "type": "xpath"
+  },
+  {
+    "key": "tunnel_Information",
+    "value": "//a[@href='/user/account/tunnel' and text()='TUNNEL']",
+    "type": "xpath"
+
+
+
+
+
+
+  }
+]
