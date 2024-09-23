@@ -15,7 +15,7 @@ Dashboard sayfasından scenarios sayfasına geçiş
 Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 * Scenarios tabına tıklanır
-* "1200" saniye bekle
+* "900" saniye bekle
 * Dashboarddan scenarios sayfasına başarılı şekilde yönlendiği görülmelidir
 
 Dashboard sayfasından plans sayfasına geçiş
